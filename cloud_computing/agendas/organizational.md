@@ -18,7 +18,7 @@ Termin: 28.Juli
 
 * schriftlich
 * Inhalte aus Skript + Vorlesungen
-* Tipp: am Ende jeder Vorlesung wird eine Klausurfrage diskutiert<!-- .element: class="fragment" data-fragment-index="1" -->
+* Tipp: am Ende jeder Vorlesung wird eine Klausurfrage veröffentlicht und diskutiert - Anwesenheit wird belohnt!<!-- .element: class="fragment" data-fragment-index="1" -->
 
 down:
 ## Skripte ...
