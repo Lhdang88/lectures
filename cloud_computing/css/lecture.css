@@ -1,0 +1,8 @@
+.reveal h2 {
+  color: #6495ED;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 1);
+}
+
+.reveal h2, .reveal h3, .reveal h4, .reveal h5  shadow {
+  text-shadow: 5px 5px 4px rgba(50, 50, 50, 1);
+}

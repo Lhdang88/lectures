@@ -40,12 +40,20 @@ Bedeutung für Klein- und Mittelständige Unternehmen und Privat Nutzer
 
 down:
 
+### Technische Grundlagen für Cloud Computing
+
+todo:
+* Virtualisierung
+* Automatisierungstools
+* Breitband Internet
+
+down:
+
 ### Das Versprechen von Cloud Computing
 
-Vorteile:
-
- * Reduzierung von cost of ownership von Hardware, Software, (Rechenzentrum-)Betrieb und bessere Auslastung durch Virtualisierung
- * Skalierung durch Automatisierung der Cloud Dienste und Geografische Abdeckung des Cloud-Providers
+ * Reduzierung von Total Cost of Ownership (TCO)
+ * Elastische Skalierung durch Automatisierung und Virtualisierung
  * Agilität durch On-Demand Bereitstellung Infrastruktur und Services
- * Flexibilität durch dynamisches Kostenmodell (Pay-per-Use)
- * Schnellere Time to Market durch erhöhte Entwicklungsgeschwindigkeit (PaaS)
+ * Kostenreduktion und Flexibilität durch dynamisches Kostenmodell (Pay-per-Use)
+ * Schnellere Time to Market, z.B. durch On-Demand Dienste, höhere Entwicklungsgeschwindigkeit (PaaS)
+ * Geografische Abdeckung des Cloud-Providers

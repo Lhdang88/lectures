@@ -7,10 +7,12 @@
 		<title>reveal.js</title>
 
 		<link rel="stylesheet" href="../../css/reveal.css">
-		<link rel="stylesheet" href="../../css/theme/black.css">
+		<link rel="stylesheet" href="../../css/theme/league.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="../../lib/css/zenburn.css">
+		<!-- custom css -->
+		<link rel="stylesheet" href="css/lecture.css">
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -24,8 +26,50 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section data-markdown="fronts/2.md"
+					data-separator="^\nnext:\n"
+					data-separator-vertical="^\ndown:\n">
+				</section>
+				<section data-markdown="agendas/1.md"
+					data-separator="^\nnext:\n"
+					data-separator-vertical="^\ndown:\n">
+			 	</section>
+				<section data-markdown>
+					<script type="text/template">
+						<!-- .slide: data-background="media/Cloud2.jpg" -->
+						## 1. Vergangenheit, Gegenwart und Zukunft
+
+						#### a. Cloud Historie<!-- .element: class="shadow" -->
+					</script>
+				</section>
+				<section data-markdown="introduction/history.md"
+					data-separator="^\nnext:\n"
+					data-separator-vertical="^\ndown:\n">
+			 	</section>
+				<section data-markdown>
+					<script type="text/template">
+						<!-- .slide: data-background="media/Cloud2.jpg" -->
+						## 1. Vergangenheit, Gegenwart und Zukunft
+
+						#### b. Technologische Trends
+					</script>
+				</section>
+				<section data-markdown="introduction/cloudtrends.md"
+					data-separator="^\nnext:\n"
+					data-separator-vertical="^\ndown:\n">
+			 	</section>
+				<section data-markdown>
+					<script type="text/template">
+						<!-- .slide: data-background="media/Cloud2.jpg" -->
+						## 1. Einführung
+
+						#### c. Hands-On: Docker, Kubernetes, Cloud Foundry
+					</script>
+				</section>
+				<section data-markdown="introduction/handson_technologies.md"
+					data-separator="^\nnext:\n"
+					data-separator-vertical="^\ndown:\n">
+			 	</section>
 			</div>
 		</div>
 
@@ -35,7 +79,10 @@
 		<script>
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
-				history: true,
+				slideNumber: true,
+				transition: 'convex',
+				backgroundTransition: 'convex',
+				previewLinks: true,
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [

@@ -12,17 +12,19 @@ Vorlesungstermine:
 |6.|Fr., 30.Jun|9:00 - 12:15|
 
 down:
-## Klausur
+## Klausur (Neue Konzepte I.)
 
 Termin: 28.Juli
 
-* schriftlich
+Cloud Computing
+
+* schriftlich (40 min., max. 40 Punkte)
+* Chance: zusätzlich 6-8 Punkte für die Klausur durch 1 Präsentation (10-15 min.) zu holen
 * Inhalte aus Skript + Vorlesungen
-* Tipp: am Ende jeder Vorlesung wird eine Klausurfrage veröffentlicht und diskutiert - Anwesenheit wird belohnt!<!-- .element: class="fragment" data-fragment-index="1" -->
 
 down:
 ## Skripte ...
 
-... findet ihr hier:
-
-[http://todo](todo.com)
+... bei Moodle oder auch hier:
+<font size="5">
+[https://github.com/Lhdang88/lectures/tree/master/cloud_computing/pdf/](https://github.com/Lhdang88/lectures/tree/master/cloud_computing/pdf/)</font>
