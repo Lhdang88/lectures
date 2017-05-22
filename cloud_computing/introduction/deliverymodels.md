@@ -148,4 +148,6 @@ down:
 Quelle: http://dailyitproblems.azurewebsites.net/wp-content/uploads/2013/12/Cloud_Hostingvarianten_v3.png, Stand Mai.2017
 </font>
 
-note: Begriffe - on-premise, off-premise erklären
+note: * Begriffe - on-premise, off-premise erklären
+* hosted / managed erklären
+* Unternehmen fangen gerne mit Private Cloud Lösungen an und bieten SaaS Lösungen public an -> Hybrid Cloud

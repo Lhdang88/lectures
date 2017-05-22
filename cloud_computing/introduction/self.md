@@ -6,7 +6,15 @@
 * <!-- .element: class="fragment" data-fragment-index="3" -->Beruf: Software [[Entwickler]](https://twitter.com/iamdevloper/status/856790988794331136) bei Robert Bosch GmbH
 * <!-- .element: class="fragment" data-fragment-index="4" -->Connected Services, Projekt: ["Cloud-basierte Falschfahrer -Warnung"](http://www.bosch-mobility-solutions.com/en/highlights/connected-mobility/wrong-way-driver-alert/)
 
+note: * Job Titles in Tech : Operations Officer, System Architect, Technology Evangelist, :)
+* IT-Tech, sehr schnelllebig, Technologien verändern sich rasant, wer an vorderster Front der Entwicklung mitschwimmen will muss aufgeschlossen, wissbegierig und auch sozial sein, also im Nerd-Rahmen (IT-)social, social media :)
+* Programmierer seit 15 Jahren
+* Bosch: Automotive-Bereich bei Bosch, Automated Driving, Connected Services
+* Projekt WDW: Tech-Lead, WDW eines der ersten Cloud services von Bosch der dieses Jahr starten wird, mit bis zu 30 Mio-DLs. / Usern
+* Idee von WDW: Bewegungsprofile zu über die Cloud zu validieren und nach Falschfahrer zu filtern und Autos im Umkreis zu bewarnen, Daten: GPS & Internetverbindung zur Cloud
+
 down:
+
 ## Was ich in meiner Freizeit mache ...
 
 ... Tennis ...<!-- .element: class="fragment" data-fragment-index="1" -->
@@ -28,12 +36,14 @@ down:
 <img src="media/hackathon.png" width="30%" height="30%"/><!-- .element: class="fragment" data-fragment-index="1" -->
 <a href="https://www.meetup.com/nodemeetup/photos/"><img src="media/nodemeetup.png" width="30%" height="30%"/></a><!-- .element: class="fragment" data-fragment-index="2" -->
 
+note: Co-Organizer, nodejs-meetup, Ludwigsburg, Meetup-Konzept: Networking/Socialising event für Interessierte, Talks, Kurzpräsentationen
+
 down:
 
-## Vorbereitung ...
+## Expertise ...
 
-<a href="media/orly1.png"><img src="media/orly1.png" width="40%" height="40%"/></a><!-- .element: class="fragment" data-fragment-index="1" -->
-<img src="media/adam-sandler.gif" width="40%" height="40%"/></a><!-- .element: class="fragment" data-fragment-index="2" -->
+<img src="media/orly1.png" width="40%" height="40%"/><!-- .element: class="fragment" data-fragment-index="1" -->
+<img src="media/orly4.png" width="40%" height="40%"/><!-- .element: class="fragment" data-fragment-index="2" -->
 
 down:
 

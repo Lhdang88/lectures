@@ -12,6 +12,7 @@ Vorlesungstermine:
 |6.|Fr., 30.Jun|9:00 - 12:15|
 
 down:
+
 ## Klausur (Neue Konzepte I.)
 
 Termin: 28.Juli
@@ -22,7 +23,11 @@ Cloud Computing
 * Chance: zusätzlich 6-8 Punkte für die Klausur durch 1 Präsentation (10-15 min.) zu holen
 * Inhalte aus Skript + Vorlesungen
 
+note: * Fragen ?
+* Kurzpräsentationsthemen vorlegen
+
 down:
+
 ## Skripte ...
 
 ... bei Moodle oder auch hier:

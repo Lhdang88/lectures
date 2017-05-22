@@ -35,9 +35,8 @@ down:
 * Rechenressourcen, Speicher, Netzwerkresourcen werden virtualisiert bereitgestellt
 * Durch Virtualisierung kann der Kunde On Demand VM Instanzen bestellen
 
-down:
-
-Beispiel: Amazon Web Services
+note: * IaaS, PaaS, SaaS anhand eigener Skizze erklären
+* traditionelle IT: welche Dinge muss man betreiben / managen um ein Software Produkt anbieten zu können
 
 down:
 
@@ -94,6 +93,10 @@ down:
 ## SaaS
 
 <img src="media/multi-tenancy.svg" width="50%" height="50%" style="background-color: white;" />
+
+note: * Multi-Tenancy ist eine Querschnittsanforderung an das System
+* Konzept könnte beinhalten wie Daten abgelegt werden, Tenant pro DB, Tenant pro Table, Tenant pro Row
+* Tenant je nach RechnerCluster (Router, Datenschutz, Geo-Loadbalancing - Latenz)
 
 down:
 
