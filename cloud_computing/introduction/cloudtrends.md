@@ -46,6 +46,11 @@ App-Containerisierung:
 
 down:
 
+#### Container Orchestrierung
+
+![containers](media/containers.gif)
+
+down:
 
 ## Container Orchestrierung
 
@@ -84,14 +89,6 @@ Beispiel:
 </tr>
 </table>
 </div>
-
-down:
-
-#### Kubernetes Demo
-
-Container Orchestration:
-
-![containers](media/containers.gif)
 
 down:
 

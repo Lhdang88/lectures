@@ -1,5 +1,27 @@
 ## Virtualisierung
 
+Frage: Welche Bedeutung hat Virtualisierung für Cloud Computing ?
+
+<div style="white-space: nowrap">
+<img src="media/the-thinker.jpg" width="40%" height="40%" />
+<img src="media/thinking-monkey.png" width="40%" height="40%" class="fragment" data-fragment-index="1"/>
+</div>
+
+down:
+
+## Virtualisierung
+
+essentiell u.a. für:
+* Partitionierung von Ressourcen
+* Skalierung / "Elastic Runtime"
+* Sicherheit
+* Multi-Tenancy
+* Serverauslastung / Loadbalancing
+
+down:
+
+## Virtualisierung
+
 <iframe src='//players.brightcove.net/1534342432001/Byh3doRJx_default/index.html?videoId=3879037056001' allowfullscreen frameborder=0></iframe>
 <br>
 - VMWare
@@ -12,12 +34,31 @@ down:
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Virtualization), April.2017
 
+note: beschreibt den Prozess aus etwas physischem oder nicht vorhandenem etwas virtuelles zu erzeugen
+* beispiele für Virtualisierung: Netzwerkvirtualisierung: VPN
+* Memory Virtualisierung: Virtueller Speicher (Pagetables, Prozesse können vom Betriebssystem virtuellen Speicher zugewiesen werden, der Speicher wird in Pagetables gespeichert, die Größe der Pagetables können n-bit groß sein, größer als der Hauptspeicher selbst, es können nur teile des speichers in RAM geladen werden)
+* Storage-Virtualisierung: implementation in SAN-(Storage Area Network) um virtuelle Storage Pfade über einen pool aus physikalischen Festplatten zu abstrahieren, z.B. Cloud Storage
+* I/O DVD-/Blue-Ray Device Virtualisierung
+
 down:
 
 #### Beispiel: Systemvirtualisierung
 
 <img src="media/virtualization_win_on_osx.png" />
 - https://www.virtualbox.org/
+
+note: demo virtualbox
+* demo virtual box configs
+
+down:
+
+#### Systemvirtualisierung
+
+* versteht man eine Virtualisierungsschicht zwischen Hardware und OS
+* Host-System: Basissystem auf dem die Virtualisierungsschicht läuft (Host-OS, Bare-Metal)
+* Gast-System: Gast-Betriebssystem welches virtualisiert wird
+* VM: Container in der das Gast-Betriebssystem läuft
+* Was wird virtualisiert: CPU, Speicher, Storage, I/O, Netzwerk
 
 down:
 
@@ -29,15 +70,26 @@ down:
 * CPU-Operationen laufen direkt auf der unterliegenden Hardware (keine SW-Interpretation)
 * I/O, Speicher- und Netzwerk-Operationen werden durch VMM umgeleitet
 
-note: * das Gast-Betriebssystem ist mit der Hardware-Architektur des Hosts Kompatibel (CPU: gleicher Befehlssatz, bei nicht vorhandender HW/Imkompatibilität -> Emulation)
-* es gibt Hardware Hypervisor (CPU), oder Software Hypervisor (laufen im OS)
-* wie kann ein Programm im Gast-OS direkt auf der Host-CPU laufen ? Programme werden zu Maschinen-Code (Befehlssatz x86) kompiliert
+down:
+
+#### Systemvirtualisierung
+
+<img src="media/intel-virtualization.png" width="70%" height="70%"/>
+
+<font size="4">
+[https://software.intel.com/en-us/articles/the-advantages-of-using-virtualization-technology-in-the-enterprise](https://software.intel.com/en-us/articles/the-advantages-of-using-virtualization-technology-in-the-enterprise)
+</font>
 
 down:
 
 #### Systemvirtualisierung
 
 <img src="media/virtualization-example.png" width="60%" height="60%"/>
+
+note: * das Gast-Betriebssystem ist mit der Hardware-Architektur des Hosts Kompatibel (CPU: gleicher Befehlssatz, bei nicht vorhandender HW/Imkompatibilität -> Emulation)
+* es gibt Hardware Hypervisor (CPU), oder Software Hypervisor (laufen im OS)
+* wie kann ein Programm im Gast-OS direkt auf der Host-CPU laufen ? Programme werden zu Maschinen-Code (Befehlssatz x86) kompiliert
+* Beispiel: Win, Linux Unterstützung für x86, aber auch Android x86
 
 down:
 
@@ -220,13 +272,15 @@ down:
 
 down:
 
-#### VM-Einsatz bei IaaS (AWS-EC2)
+#### VM-Einsatz bei IaaS (AWS-Elastic Compute Cloud)
 
 * Amazon Machine Image (AMI) bilden konfigurierten Stand einer VM-Instanz ab
 * beliebig viele VM-Instanzen können durch ein AMI gestartet werden
 * VM-Instanzen sind in EC2 volatil, d.h. der Lebenszyklus einer VM wird durch EC2 bestimmt
 * Scale-Up: zusätzliche VM-Instanzen gestartet
 * Scale-Down: VM-Instanzen werden terminiert
+
+[https://aws.amazon.com/de/ec2/](https://aws.amazon.com/de/ec2/)
 
 down:
 
