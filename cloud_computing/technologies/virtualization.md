@@ -38,7 +38,6 @@ note: beschreibt den Prozess aus etwas physischem oder nicht vorhandenem etwas v
 * beispiele für Virtualisierung: Netzwerkvirtualisierung: VPN
 * Memory Virtualisierung: Virtueller Speicher (Pagetables, Prozesse können vom Betriebssystem virtuellen Speicher zugewiesen werden, der Speicher wird in Pagetables gespeichert, die Größe der Pagetables können n-bit groß sein, größer als der Hauptspeicher selbst, es können nur teile des speichers in RAM geladen werden)
 * Storage-Virtualisierung: implementation in SAN-(Storage Area Network) um virtuelle Storage Pfade über einen pool aus physikalischen Festplatten zu abstrahieren, z.B. Cloud Storage
-* I/O DVD-/Blue-Ray Device Virtualisierung
 
 down:
 
@@ -129,6 +128,7 @@ down:
 
 note: * Host-Architektur x86 CPU vs mobile ARM Architektur, Super Nintendo Hardware auf "65C816" CPU Architektur,
 * die Emulationssoftware überbrückt Imkompatibilitäten durch emulierte Schnittstellen
+* Beispiel Daemon Tools I/O DVD-/Blue-Ray Device Emulation
 
 down:
 
@@ -302,7 +302,7 @@ down:
 
 down:
 
-#### AWS EC2 - AMI
+#### AWS EC2 - AMI Design Strategies
 
 <img src="media/ami-design.png" width="70%" height="70%" />
 
@@ -321,7 +321,7 @@ down:
 #### Cloud Foundry
 
 * "Bring-Your-Own-Code"-Prinzip: Container-Image wird durch ein "Buildpack"-script gebaut
-* Container-Updates werden durch die Plattform automatisch durchgeführt, bspw. Security-Patching, Runtime-Updates
+* Container-Updates werden durch die Plattform automatisch durchgeführt, bspw. Security-Patching, Runtime-Updates (siehe Verantwortlichkeit PaaS)
 * Plattform startet/pausiert/rebootet/terminiert Container eigenständig
 * Container = "Cell"
 
@@ -330,6 +330,14 @@ down:
 #### "Bring-Your-Own-Code"
 
 <img src="media/PaaS-Simple.svg" width="60%" height="60%" />
+
+down:
+
+#### Hands-On Cloud Foundry
+
+Ein bisschen PaaS-Magic!<!-- .element: class="fragment" data-fragment-index="0" -->
+
+<img src="media/magic_dude.gif" width="50%" height="50%" class="fragment" data-fragment-index="1" />
 
 down:
 
@@ -349,3 +357,71 @@ down:
 <br>
 <font size="4"> [https://docs.cloudfoundry.org/concepts/diego/diego-architecture.html](https://docs.cloudfoundry.org/concepts/diego/diego-architecture.html)
 </font>
+
+down:
+
+#### Container-Einsatz bei CaaS (MS Azure + Kubernetes)
+
+* Grundbaustein sind Container
+* "Bring-Your-Own-Coontainer"-Prinzip: Container-Images wird vom Kunden / Entwicklungsteam erstellt, die Plattform generiert daraus Container
+* Container-Updates werden vom Kunden erstellt, bspw. Security-Patching, Runtime-Updates, erfordern eine neue Image-Version
+* die Cloud stellt eine Orchestrierungsplattform bereit (CaaS)
+* Plattform startet/pausiert/rebootet/terminiert Container eigenständig
+
+down:
+
+## Was ist Container-as-a-Service ? (CaaS)
+
+* neue Service-Schicht in Cloud Computing, zwischen IaaS und PaaS
+* weniger Verantwortlichkeit als IaaS, mehr Verantwortlichtkeit als PaaS
+* Kunden arbeiten auf Basis von Containern
+* Container Orchestrierungsframework (e.g. Kubernetes, Docker Swarm etc.) ist das Gehirn der Plattform
+
+down:
+
+#### NIST Service-Modell + CaaS
+
+<img src="media/Service-Model-Pyramid-With-CaaS.svg" width="50%" height="50%"/>
+
+down:
+
+#### CaaS Verantwortlichkeiten
+
+<img src="media/cloud-stack.svg" width="80%" height="80%" />
+
+down:
+
+#### Bring-Your-Own-Container
+
+<div style="background-color: white">
+<img src="media/CaaS-Simple.svg" width="60%" height="60%" />
+</div>
+
+down:
+
+#### Hands-On: Microsoft Azure + Kubernetes
+
+![containers](media/containers.gif)
+
+down:
+
+#### Was ist Container-as-a-Service ? (Fortsetzung)
+
+* weniger Komplexität / Setup als IaaS, mehr Flexibilität als PaaS
+* Aufgaben Container Orchestrierungsplattform:
+  * Networking
+  * Lastverteilung (Loadbalancing)
+  * Skalierung, Scheduling
+  * Storage-Integration
+  * Monitoring
+  * Security
+
+down:
+
+#### Vorteile/Nachteile
+
++ weniger komplex als IaaS, flexibler als PaaS
++ effizienter durch Container
++ kein Vendor Locking durch Open-Source Orchestrierungsplattformen und Container-Technologien
++ Dev-Op Parität (Entwicklung und Betrieb haben die gleiche Umgebung: Container), fördert "DevOps"
+- mehr Aufwand ggü. PaaS (Image-Pflege, Security Patching)

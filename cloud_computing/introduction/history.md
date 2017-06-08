@@ -46,9 +46,9 @@ down:
 
 note: * 2000's new Website? buy bare metal, sun's market, Building Block ist physischer Server - Metall
 * VMWare, Server Virtualisierung, effizienter als Bare-Metal Server (Auslastung ~10%),Building Block ist VM
-* AWS 2006, IaaS, CapEx to OpEx (Investitionsausgaben zu Betriebsausgaben), AMI (Amazon Machine Image = VM), VMs on Click, Automatisierung von VMs boot-up, elastic runtime , closed source
-* Heroku 2009, PaaS, neue Software Entwicklungskonzepte: Microservices, 12-Factor Apps, faster time to market, Buildpacks, closed source
-* OpenStack 2010, open source IaaS, Zusammenschluss vieler Unternehmen um Open Source IaaS zu entw., Nasa, Rackspace
+* AWS 2006, IaaS, CapEx to OpEx (Investitionsausgaben zu Betriebsausgaben), AMI (Amazon Machine Image = VM), VMs on Click, Automatisierung von VMs boot-up, elastic runtime , closed source, (Vendor-Lockin)
+* Heroku 2009, PaaS, neue Software Entwicklungskonzepte: Microservices, 12-Factor Apps, faster time to market, Buildpacks, closed source (Vendor-Lockin)
+* OpenStack 2010, open source IaaS, Zusammenschluss vieler Unternehmen um Open Source IaaS zu entw., Nasa, Rackspace, Open-Source gegen Vendor-Lockin
 * Cloud Foundry, open source PaaS, Buildpacks, vergleichbar mit Heroku, Container
 * Docker, real Container Magic, Building Block ist Container, DevOps Parität, Dev=Ops, gleiche Umgebung durch Docker
 * Kubernetes, Orchestrierung auf Basis von Docker, von Google, Management von Zehn-/Hunderttausend Containern gleichzeitig, neues Cloud Modell: CaaS

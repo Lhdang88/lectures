@@ -38,11 +38,12 @@ down:
 
 down:
 
-## Docker Demo (Teil 2)
-
-App-Containerisierung:
+#### Konzept: App-Containerisierung
 
 ![packaging](media/packaging.gif)
+
+* Portabilität, Migrierbarkeit, Verteilbarkeit
+* Isolation, Sicherheit
 
 down:
 
@@ -98,8 +99,9 @@ down:
 
 down:
 
-* Serverless != Ohne Server
-* kurzlebige Funktionen (stateless)
+* Serverless bedeutet nicht "Ohne Server"
+* kurzlebige Funktionen (stateless), die automatisch skalieren (kein Skalierungsmanagement durch Kunden)
+* Skalierungsbeschränkung durch Limitierung der Nutzung / Budget
 * In Serverless-Funktionen können On-Demand Rechenoperationen implementiert werden, die nicht ständig laufen müssen
 * Lambda-Funktionen werden in der CLoud On-Demand erstellt, ausgeführt und beendet
 * Die Kosten werden im Pay-per-Use Prinzip in Millisekunden abgerechnet
@@ -116,3 +118,9 @@ Bedeutung für Cloud Computing
 Beispiele:
 
 AWS Lambda, Apache OpenWhisk, Google Cloud Functions
+
+down:
+
+#### AWS Serverless für Amazon Alexa
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UOEIH2l9z7c" frameborder="0" allowfullscreen></iframe>
