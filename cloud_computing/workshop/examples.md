@@ -87,7 +87,7 @@ RUN cd /myApp && npm install
 # set working directory
 WORKDIR /myApp
 # start command
-CMD npm start
+CMD node index.js
 ```
 
 down:
@@ -99,13 +99,13 @@ API docu: https://docs.docker.com/engine/reference/commandline/build/
 cd into-your-app-directory
 # build the docker image with docker build
 # if you need help: execute 'docker [Command] help'
-docker build -t your-image-name:your-tag-name .
+sudo docker build -t your-image-name:your-tag-name .
 #confirm with
-docker images
+sudo docker images
 # run the docker image with docker run
-docker run --name your-container-name -p 80:3000 -itd your-image-name:your-tag-name
+sudo docker run --name your-container-name -p 80:3000 -itd your-image-name:your-tag-name
 # confirm with
-docker ps -a
+sudo docker ps -a
 ```
 
 down:
@@ -114,9 +114,9 @@ down:
 
 ```bash
 # re-tag it, to reference my docker-hub repository
-docker tag your-image:your-tag lhdang88/dhbw:hello_world
+sudo docker tag your-image:your-tag lhdang88/dhbw:hello_world
 # push the image to my repository on 'Docker-Hub'
-docker push lhdang88/dhbw:hello_world
+sudo docker push lhdang88/dhbw:hello_world
 ```
 
 down:

@@ -11,6 +11,8 @@
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="../../lib/css/zenburn.css">
+		<!-- custom css -->
+		<link rel="stylesheet" href="css/lecture.css">
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -28,31 +30,31 @@
 					data-separator="^\nnext:\n"
 					data-separator-vertical="^\ndown:\n">
 				</section>
-				<section data-markdown="agendas/1.md"
+				<section data-markdown="agendas/2.md"
 					data-separator="^\nnext:\n"
 					data-separator-vertical="^\ndown:\n">
 			 	</section>
 				<section data-markdown>
 					<script type="text/template">
-						<!-- .slide: data-background="media/Cloud2.jpg" -->
-						## 2. Vergangenheit, Gegenwart und Zukunft
+						<!-- .slide: data-background="media/cloudotori.jpg" -->
+						## 3. Betrieb
 
-						#### d. Kernfunktion: Auto-Scaling
+						#### a. Rechenzentrumsbetrieb
 					</script>
 				</section>
-				<section data-markdown="technologies/aws_autoscaling.md"
+				<section data-markdown="operations/datacenter.md"
 					data-separator="^\nnext:\n"
 					data-separator-vertical="^\ndown:\n">
 			 	</section>
 				<section data-markdown>
 					<script type="text/template">
-						<!-- .slide: data-background="media/Cloud2.jpg" -->
-						## 2. Vergangenheit, Gegenwart und Zukunft
+						<!-- .slide: data-background="media/cloudfuji.jpg" -->
+						## 3. Sicherheit
 
-						#### e. Hands-On: Docker, Kubernetes, Cloud Foundry
+						#### b. Cloud Security
 					</script>
 				</section>
-				<section data-markdown="introduction/handson_technologies.md"
+				<section data-markdown="operations/security.md"
 					data-separator="^\nnext:\n"
 					data-separator-vertical="^\ndown:\n">
 			 	</section>
@@ -65,6 +67,10 @@
 		<script>
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
+				slideNumber: true,
+				transition: 'convex',
+				backgroundTransition: 'convex',
+				previewLinks: true,
 				history: true,
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
