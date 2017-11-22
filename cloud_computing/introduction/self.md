@@ -2,7 +2,7 @@
 
 * <!-- .element: class="fragment" data-fragment-index="0" -->Vorname: [_Hai_] Dang
 * <!-- .element: class="fragment" data-fragment-index="0" -->Nachname: Le
-* <!-- .element: class="fragment" data-fragment-index="2" -->Alter: 31 Jahre
+* <!-- .element: class="fragment" data-fragment-index="2" -->Alter: 32 Jahre
 * <!-- .element: class="fragment" data-fragment-index="3" -->Beruf: Software [[Entwickler]](https://twitter.com/iamdevloper/status/856790988794331136) bei Robert Bosch GmbH
 * <!-- .element: class="fragment" data-fragment-index="4" -->Connected Services, Projekt: ["Cloud-basierte Falschfahrer -Warnung"](http://www.bosch-mobility-solutions.com/en/highlights/connected-mobility/wrong-way-driver-alert/)
 

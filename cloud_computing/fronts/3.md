@@ -8,14 +8,14 @@
         <tr>
           <td nowrap>
           Dipl.-Medieninf. Hai Dang Le<br>
-          Software Engineer<br>
+          Sen. Software Engineer<br>
           lhdang.88@gmail.com<br>
           </td>
         </tr>
       </table>
     <td style="border: none; width: 40%;"></td>
     <td style="border: none; text-align: right;" nowrap>
-      SS 2017<br>
+      WS 2017/2018<br>
       <img src="media/dhbw.svg" alt="dhbw"/>
     </td>
   </tr>
