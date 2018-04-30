@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style id="bx-google-fonts">@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,500,700,900,100italic,300italic,400,400italic,500italic,700italic,900italic);</style>
+  </defs>
+  <rect x="56.587" y="82.494" width="30.417" height="35.509" style="fill: rgb(110, 163, 255); stroke: rgb(0, 0, 0);"/>
+  <text x="50.268" y="128.54" transform="matrix(0.908003, 0, 0, 0.864308, 15.535296, 0.259869)" style="font-size: 36px; font-family: Roboto; white-space: pre;">C</text>
+  <defs>
+    <style id="bx-google-fonts">@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic);</style>
+  </defs>
+  <rect x="349.224" y="68.718" width="30.417" height="35.509" style="fill: rgb(110, 163, 255); stroke: rgb(0, 0, 0);" transform="matrix(0.999999, 0, 0, 1, 24.453353, 14.681908)"/>
+  <text x="399.484" y="129.588" transform="matrix(0.908003, 0, 0, 0.864308, 15.535296, 0.259869)" style="font-size: 36px; font-family: Roboto; white-space: pre;">S</text>
+  <path d="M 72.083 118.55 L 71.451 399.196" style="fill: none; stroke: black;"/>
+  <path d="M 388.645 118.732 L 389.277 404.435" style="fill: none; stroke: black;"/>
+  <path d="M 372.241 138.812 L 384.868 144.274 L 74.953 124.608" style="fill: none; stroke: black;"/>
+  <path d="M 371.667 147.005 L 383.72 144.274" style="fill: none; stroke: black;"/>
+  <text x="95.776" y="141.917" transform="matrix(0.908003, 0, 0, 0.864308, 15.535296, 0.259869)" style="font-size: 18px; white-space: pre;">Hello! Let's talk in private!</text>
+  <path d="M 385.442 150.781 L 76.102 164.439 L 88.154 159.521" style="fill: none; stroke: black;"/>
+  <path d="M 87.579 167.716 L 77.249 164.985" style="fill: none; stroke: black;"/>
+  <text x="67.887" y="177.152" transform="matrix(0.908003, 0, 0, 0.864308, 15.535296, 0.259869)" style="font-size: 18px; white-space: pre;">OK! (I &lt;3 private talks), here's my pubKey</text>
+  <rect x="179.695" y="194.354" width="30.417" height="24.038" style="fill: rgb(177, 255, 185);" transform="matrix(0.999999, 0, 0, 0.999999, 20.851134, -32.328017)"/>
+  <text x="207.652" y="205.123" transform="matrix(0.908003, 0, 0, 0.864308, 15.535296, 0.259869)" style="font-size: 14px; white-space: pre;">pbK</text>
+  <rect x="32.254" y="151.722" width="32.025" height="25.209" style="fill: rgb(177, 255, 185);"/>
+  <text x="20.35" y="204.123" transform="matrix(0.956003, 0, 0, 0.90643, 16.525475, -17.021097)" style="font-size: 14px; white-space: pre;">pbK</text>
+  <rect x="396.349" y="131.115" width="30.417" height="24.038" style="fill: rgb(177, 255, 185);"/>
+  <text x="423.295" y="169.359" transform="matrix(0.908003, 0, 0, 0.864308, 15.535296, 0.259869)" style="font-size: 14px; white-space: pre;">pbK</text>
+  <rect x="404.893" y="116.433" width="30.417" height="24.038" style="fill: rgb(255, 162, 162);" transform="matrix(0.999999, 0, 0, 1, 24.453409, 14.681886)"/>
+  <text x="459.634" y="169.359" transform="matrix(0.908003, 0, 0, 0.864308, 15.535296, 0.259869)" style="font-size: 14px; white-space: pre;">prK</text>
+  <path d="M 372.815 215.517 L 385.442 220.981 L 75.527 201.315" style="fill: none; stroke: black;"/>
+  <path d="M 372.241 223.712 L 384.294 220.981" style="fill: none; stroke: black;"/>
+  <text x="92.858" y="139.86" transform="matrix(0.908003, 0, 0, 0.864308, 36.770149, 83.843536)" style="font-size: 18px; white-space: pre;">Let's talk with this</text>
+  <rect x="254.876" y="187.383" width="92.974" height="24.038" style="fill: rgb(177, 255, 185);"/>
+  <text x="267.487" y="234.462" transform="matrix(0.908003, 0, 0, 0.864308, 15.535296, 0.259869)" style="font-size: 14px; white-space: pre;">pbK(secretKey)</text>
+  <rect x="394.337" y="194.485" width="30.417" height="24.038" style="fill: rgb(255, 162, 162);"/>
+  <text x="475.435" y="172.52" transform="matrix(0.908003, 0, 0, 0.864308, -33.821407, 60.899078)" style="font-size: 14px; white-space: pre;">prK</text>
+  <rect x="369.598" y="204.386" width="92.974" height="24.038" style="fill: rgb(177, 255, 185);" transform="matrix(1, 0, 0, 1.000001, 24.453003, 14.681786)"/>
+  <text x="420.762" y="271.121" transform="matrix(0.908003, 0, 0, 0.864308, 15.535296, 0.259869)" style="font-size: 14px; white-space: pre;">pbK(secretKey)</text>
+  <text x="267.487" y="234.462" transform="matrix(0.956003, 0, 0, 0.90643, -248.441803, -6.246604)" style="font-size: 14px; white-space: pre;">secretKey</text>
+  <text x="267.487" y="234.462" transform="matrix(0.956003, 0, 0, 0.90643, 140.16275, 42.422272)" style="font-size: 14px; white-space: pre;">secretKey</text>
+  <path d="M 382.547 249.118 L 73.207 262.776 L 85.259 257.858" style="fill: none; stroke: black;"/>
+  <path d="M 84.684 266.053 L 74.354 263.322" style="fill: none; stroke: black;"/>
+  <text x="67.887" y="177.152" transform="matrix(0.908003, 0, 0, 0.864308, 18.055948, 95.963737)" style="font-size: 18px; white-space: pre;">OK! Got it! (Can't wait what you will tell me)</text>
+  <path d="M 375.265 338.966 L 387.892 344.428 L 77.977 324.762" style="fill: none; stroke: black;"/>
+  <path d="M 374.691 347.159 L 386.744 344.428" style="fill: none; stroke: black;"/>
+  <text x="95.776" y="141.917" transform="matrix(0.908003, 0, 0, 0.864308, 12.079011, 200.3685)" style="font-size: 16.1979px; white-space: pre;">SecretKey(Now we are talking in private)</text>
+  <path d="M 385.708 364.153 L 76.368 377.811 L 88.42 372.893" style="fill: none; stroke: black;"/>
+  <path d="M 87.845 381.088 L 77.515 378.357" style="fill: none; stroke: black;"/>
+  <text x="95.776" y="141.917" transform="matrix(0.908003, 0, 0, 0.864308, 13.252828, 239.574005)" style="font-size: 16.1979px; white-space: pre;">SecretKey(Oh really...)</text>
+  <text x="165.304" y="227.878" style="fill: rgb(184, 191, 87); font-size: 18px; stroke: rgb(196, 222, 110); white-space: pre;">Key-Exchange</text>
+  <text x="158.175" y="397.733" style="fill: rgb(184, 191, 87); font-size: 18px; stroke: rgb(196, 222, 110); white-space: pre;">Symmetric Encr.</text>
+  <text x="238.822" y="180.947" style="fill: rgb(184, 191, 87); font-size: 18px; stroke: rgb(196, 222, 110); white-space: pre;">Asymmetric Encr.</text>
+</svg>

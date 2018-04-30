@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style id="bx-google-fonts">@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,500,700,900,100italic,300italic,400,400italic,500italic,700italic,900italic);</style>
+  </defs>
+  <rect x="165.364" y="149.45" width="317.564" height="171.441" style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0);"/>
+  <rect x="237.702" y="233.362" width="58.594" height="83.189" style="fill: rgb(216, 216, 216);"/>
+  <rect x="303.169" y="233" width="58.594" height="83.189" style="fill: rgb(216, 216, 216);"/>
+  <rect x="367.549" y="232.553" width="58.594" height="83.189" style="fill: rgb(216, 216, 216);"/>
+  <ellipse transform="matrix(1.000001, 0, 0, 1, -212.963371, -10.416674)" cx="590.639" cy="70.53" rx="73.423" ry="27.127" style="fill: rgb(216, 216, 216);"/>
+  <text x="329.572" y="61.921" style="font-size: 12px; white-space: pre;">MyCloud Enterprise</text>
+  <text x="167.258" y="140.77" style="font-size: 12px; stroke-width: 2px; white-space: pre;">Rechenzentrum von MyCloud Enterprise</text>
+  <path d="M 380.208 87.963 L 380.208 150.897" style="fill: none; stroke: black; stroke-width: 2;"/>
+  <text x="382.378" y="90.856" style="font-size: 12px; white-space: pre;">Muttergesellschaft </text>
+  <defs>
+    <style id="bx-google-fonts">@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic);</style>
+  </defs>
+  <text x="298.889" y="164.47" style="font-size: 12px; white-space: pre;">Französische Tochtergesellschaft</text>
+  <text x="399.908" y="181.101" style="font-size: 12px; white-space: pre;">Sitz Paris</text>
+  <text x="416.164" y="105.147" style="font-size: 12px; white-space: pre;">Sitz USA</text>
+  <text x="250.723" y="250" style="font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 1.000001, 0, 0.723103)">SaaS</text>
+  <text x="250.723" y="250" style="font-size: 12px; white-space: pre;" transform="matrix(1.000001, 0, 0, 0.999999, 68.105728, 1.263012)">SaaS</text>
+  <text x="250.723" y="250" style="font-size: 12px; white-space: pre;" transform="matrix(1.000001, 0, 0, 0.999999, 133.209808, 1.986403)">SaaS</text>
+  <ellipse cx="69.155" cy="276.403" rx="44.85" ry="40.871" style="fill: rgb(216, 216, 216);"/>
+  <text x="51.794" y="255.787" style="font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 1.000001, -36.168983, -23.871813)">Schöne Schuhe GmbH</text>
+  <text x="12.731" y="298.467" style="font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 0.999999, 2.170139, -49.91287)">Tochter, Sitz Stuttgart</text>
+  <path d="M 223.958 265.191 L 236.256 273.872 L 114.005 273.148" style="fill: none; stroke: black;"/>
+  <path d="M 223.958 279.659 L 236.256 273.872" style="fill: none; stroke: black;"/>
+  <text x="82.899" y="289.063" style="font-size: 12px; white-space: pre;">verarbeitet personenbezogene Daten</text>
+  <ellipse cx="77.836" cy="54.688" rx="73.423" ry="27.127" style="fill: rgb(216, 216, 216);"/>
+  <path d="M 70.602 86.517 Z" style="stroke: black; fill: none;"/>
+  <path d="M 67.708 86.517 Z" style="stroke: black; fill: none;"/>
+  <path d="M 67.708 89.41 Z" style="stroke: black; fill: none;"/>
+  <path d="M 70.602 83.623 L 71.325 236.256" style="fill: none; stroke: black;"/>
+  <text x="27.253" y="53.795" style="font-size: 12px; white-space: pre;">ShinyShoes Ltd.</text>
+  <text x="77.835" y="89.409" style="font-size: 12px; white-space: pre;">Muttergesellschaft</text>
+  <text x="82.543" y="101.529" style="font-size: 12px; white-space: pre;">Sitz UK</text>
+</svg>
