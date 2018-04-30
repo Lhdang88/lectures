@@ -132,18 +132,6 @@ note: * Host-Architektur x86 CPU vs mobile ARM Architektur, Super Nintendo Hardw
 
 down:
 
-#### Emulation
-
-<div style="position: fixed; top: 30%; left: 10%;">
-<img src="media/emulation-example.png" width="70%" height="70%"/>
-</div>
-
-<div style="position: fixed; top: 30%; left: 10%;">
-<img src="media/emulation-example2.png" width="70%" height="70%" class="fragment" data-fragment-index="1"/>
-</div>
-
-down:
-
 #### Virtualisierung vs Emulation
 
 * Virtualisierung ist performanter, mit weniger Overhead
@@ -162,36 +150,6 @@ down:
 
 note: abstrahiert im Sinne von "teilt auf" und stellt isolierend eine Umgebung bereit
 * Beispiel Emulation: MacBook Pro CPU (x86), Samsung Galaxy S8 (ARM)
-
-down:
-
-#### Betriebssystem-Virtualisierung
-
-* auch Container-basierte Virtualisierung
-* oder "Containerization"<!-- .element: class="fragment" data-fragment-index="1" -->
-* NICHT "Containern"<!-- .element: class="fragment" data-fragment-index="2" -->
-
-<img src="media/containern.jpg" /><!-- .element: class="fragment" data-fragment-index="3" -->
-
-down:
-
-#### Containerisierung vs Containern
-<img src="media/container-ship.png" width="30%" height="30%"/> vs. <img src="media/Containern-1.jpg" width="30%" height="30%"/>
-<table>
-<td style="vertical-align:top">
-  <div class="fragment" data-fragment-index="1">
-  Gemeinsamkeiten:<br>
-  - Effizienz, Resourcen-sparend<br>
-  - liegt im Trend (?)<br>
-  </div>
-</td>
-<td>
-<img src="media/you-dont-say-cage.gif" class="fragment" data-fragment-index="2"/>
-</td>
-
-down:
-
-<img src="media/spock-orly.gif" />
 
 down:
 
@@ -246,12 +204,6 @@ note: * Frage: Docker-Handson MacOS X, welcher Kernel benutzt Mac OSX ? Wie funk
 
 down:
 
-#### Docker Demo
-
-![ShowTime](media/showtime.gif)<!-- .element: class="fragment" data-fragment-index="1" -->
-
-down:
-
 #### Bedeutung von VMs für Cloud Computing
 
 * bieten Sicherheit durch Isolierung
@@ -302,7 +254,7 @@ down:
 
 down:
 
-#### AWS EC2 - AMI Design Strategies
+#### AWS EC2 - AMI
 
 <img src="media/ami-design.png" width="70%" height="70%" />
 
@@ -321,7 +273,7 @@ down:
 #### Cloud Foundry
 
 * "Bring-Your-Own-Code"-Prinzip: Container-Image wird durch ein "Buildpack"-script gebaut
-* Container-Updates werden durch die Plattform automatisch durchgeführt, bspw. Security-Patching, Runtime-Updates (siehe Verantwortlichkeit PaaS)
+* Container-Updates werden durch die Plattform automatisch durchgeführt, bspw. Security-Patching, Runtime-Updates
 * Plattform startet/pausiert/rebootet/terminiert Container eigenständig
 * Container = "Cell"
 
@@ -330,14 +282,6 @@ down:
 #### "Bring-Your-Own-Code"
 
 <img src="media/PaaS-Simple.svg" width="60%" height="60%" />
-
-down:
-
-#### Hands-On Cloud Foundry
-
-Ein bisschen PaaS-Magic!<!-- .element: class="fragment" data-fragment-index="0" -->
-
-<img src="media/magic_dude.gif" width="50%" height="50%" class="fragment" data-fragment-index="1" />
 
 down:
 
@@ -357,71 +301,3 @@ down:
 <br>
 <font size="4"> [https://docs.cloudfoundry.org/concepts/diego/diego-architecture.html](https://docs.cloudfoundry.org/concepts/diego/diego-architecture.html)
 </font>
-
-down:
-
-#### Container-Einsatz bei CaaS (MS Azure + Kubernetes)
-
-* Grundbaustein sind Container
-* "Bring-Your-Own-Coontainer"-Prinzip: Container-Images wird vom Kunden / Entwicklungsteam erstellt, die Plattform generiert daraus Container
-* Container-Updates werden vom Kunden erstellt, bspw. Security-Patching, Runtime-Updates, erfordern eine neue Image-Version
-* die Cloud stellt eine Orchestrierungsplattform bereit (CaaS)
-* Plattform startet/pausiert/rebootet/terminiert Container eigenständig
-
-down:
-
-## Was ist Container-as-a-Service ? (CaaS)
-
-* neue Service-Schicht in Cloud Computing, zwischen IaaS und PaaS
-* weniger Verantwortlichkeit als IaaS, mehr Verantwortlichtkeit als PaaS
-* Kunden arbeiten auf Basis von Containern
-* Container Orchestrierungsframework (e.g. Kubernetes, Docker Swarm etc.) ist das Gehirn der Plattform
-
-down:
-
-#### NIST Service-Modell + CaaS
-
-<img src="media/Service-Model-Pyramid-With-CaaS.svg" width="50%" height="50%"/>
-
-down:
-
-#### CaaS Verantwortlichkeiten
-
-<img src="media/cloud-stack.svg" width="80%" height="80%" />
-
-down:
-
-#### Bring-Your-Own-Container
-
-<div style="background-color: white">
-<img src="media/CaaS-Simple.svg" width="60%" height="60%" />
-</div>
-
-down:
-
-#### Hands-On: Microsoft Azure + Kubernetes
-
-![containers](media/containers.gif)
-
-down:
-
-#### Was ist Container-as-a-Service ? (Fortsetzung)
-
-* weniger Komplexität / Setup als IaaS, mehr Flexibilität als PaaS
-* Aufgaben Container Orchestrierungsplattform:
-  * Networking
-  * Lastverteilung (Loadbalancing)
-  * Skalierung, Scheduling
-  * Storage-Integration
-  * Monitoring
-  * Security
-
-down:
-
-#### Vorteile/Nachteile
-
-+ weniger komplex als IaaS, flexibler als PaaS
-+ effizienter durch Container
-+ kein Vendor Locking durch Open-Source Orchestrierungsplattformen und Container-Technologien
-+ Dev-Op Parität (Entwicklung und Betrieb haben die gleiche Umgebung: Container), fördert "DevOps"
-- mehr Aufwand ggü. PaaS (Image-Pflege, Security Patching)

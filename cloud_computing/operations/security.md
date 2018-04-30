@@ -242,6 +242,8 @@ down:
 
 * mehr:
   * <font size="4">https://d0.awsstatic.com/whitepapers/Security/DDoS_White_Paper.pdf</font>
+  * <font size="4">https://docs.microsoft.com/de-de/azure/security/security-paas-deployments</font>
+  * <font size="4">https://azure.microsoft.com/en-us/blog/azure-ddos-protection-service-preview/</font>
 
 down:
 

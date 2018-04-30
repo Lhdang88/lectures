@@ -38,12 +38,11 @@ down:
 
 down:
 
-#### Konzept: App-Containerisierung
+## Docker Demo (Teil 2)
+
+App-Containerisierung:
 
 ![packaging](media/packaging.gif)
-
-* Portabilität, Migrierbarkeit, Verteilbarkeit
-* Isolation, Sicherheit
 
 down:
 
@@ -99,9 +98,8 @@ down:
 
 down:
 
-* Serverless bedeutet nicht "Ohne Server"
-* kurzlebige Funktionen (stateless), die automatisch skalieren (kein Skalierungsmanagement durch Kunden)
-* Skalierungsbeschränkung durch Limitierung der Nutzung / Budget
+* Serverless != Ohne Server
+* kurzlebige Funktionen (stateless)
 * In Serverless-Funktionen können On-Demand Rechenoperationen implementiert werden, die nicht ständig laufen müssen
 * Lambda-Funktionen werden in der CLoud On-Demand erstellt, ausgeführt und beendet
 * Die Kosten werden im Pay-per-Use Prinzip in Millisekunden abgerechnet
@@ -121,6 +119,47 @@ AWS Lambda, Apache OpenWhisk, Google Cloud Functions
 
 down:
 
-#### AWS Serverless für Amazon Alexa
+## Microservices
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UOEIH2l9z7c" frameborder="0" allowfullscreen></iframe>
+* modernes / populäres Architekturmuster in der Cloud
+* eignen sich für "App-Containerisierung"
+* eignen sich für die horizontale Skalierung in der Cloud
+* eignen sich für "Continous Delivery"
+
+down:
+
+### Philosophie
+
+* Entkopplung von Funktionalitäten in kleine eigenständig lebende Funktionen
+* Dekomposition von Applikationen in abgegrenzte, isolierte Module
+* Überschaubarkeit, Einfachkeit von Komponenten
+* Offene Schnittstellen, keine proprietäre Protokolle, meistens Http + JSON/XML
+* Programmiersprachenunabhängigkeit von Komponenten
+* Entkopplung von Entwicklungsteams
+
+down:
+
+### Vorteile
+
+* unabhängige Skalierbarkeit von Microservices
+* bessere Wartbarkeit, einfache Neuimplementierung
+* versteckte Abhängigkeiten werden über die API erkennbar
+* Sprachenunabhängig, Teams können nach ihren Wünschen den Technologiestack auswählen
+* unabhängige Entwicklungszyklen, Parallelisierung der Entwicklung
+* bei Überlastung (DDos) können sekundäre Services zugunsten von primären Services abgeschaltet werden
+
+down:
+
+### Nachteile
+
+* Performance Overhead durch Netzwerk-Kommunikation
+* Erhöhte Komplexität von Tests: Unit/Komponenten-Tests werden Integrationstests
+* Erhöhte Komplexität von Monitoring: zentralisiertes Monitoring, Splunk, AppDynamics etc.
+* Deployment Prozess muss ggfs. zwischen Teams abgestimmt werden (API Breaking Changes)
+* Einführung von generellen Problemen von verteilten Anwendungen: z.B. Lastverteilung, Zeitsynchronisation, distributed Locking
+
+down:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CKL3fV5UR8w" frameborder="0" allowfullscreen></iframe>
+
+https://www.youtube.com/embed/CKL3fV5UR8w
