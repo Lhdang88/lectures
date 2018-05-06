@@ -4,27 +4,23 @@ Vorlesungstermine:
 
 |VL|Datum|Uhrzeit|
 |:----|----:|----:|
-|1.|Fr., 12.Mai|13:15 - 16:30|
-|2.|Mi., 24.Mai|13:15 - 16:30|
-|3.|Fr., 02.Jun|13:15 - 16:30|
-|4.|Mi., 14.Jun|13:15 - 16:30|
-|5.|Fr., 23.Jun|9:00 - 12:15|
-|6.|Fr., 30.Jun|9:00 - 12:15|
+|1.|Mi., 09.Mai|9:00 - 16:30|
+|2.|Mi., 24.Mai|9:00 - 12:15|
+|3.|Mi., 30.Mai|9:00 - 12:15|
+|4.|Mi., 13.Jun|9:00 - 12:15|
+|5.|Mi., 20.Jun|9:00 - 12:15|
 
 down:
 
-## Klausur (Neue Konzepte I.)
+## Klausur (Neue Konzepte)
 
-Termin: 28.Juli
+Termin: 18.Juli
 
 Cloud Computing
 
-* schriftlich (40 min., max. 40 Punkte)
-* Chance: zusätzlich 6-8 Punkte für die Klausur durch 1 Präsentation (10-15 min.) zu holen
+* schriftlich (45 min., max. 40 Punkte)
+* keine Hilfsmittel
 * Inhalte aus Skript + Vorlesungen
-
-note: * Fragen ?
-* Kurzpräsentationsthemen vorlegen
 
 down:
 
@@ -32,4 +28,4 @@ down:
 
 ... bei Moodle oder auch hier:
 <font size="5">
-[https://github.com/Lhdang88/lectures/tree/master/cloud_computing/pdf/](https://github.com/Lhdang88/lectures/tree/master/cloud_computing/pdf/)</font>
+[https://github.com/Lhdang88/lectures/tree/master/cloud_computing/pdf/ss2018](https://github.com/Lhdang88/lectures/tree/master/cloud_computing/pdf/ss2018)</font>

@@ -132,8 +132,7 @@ Worin unterscheidet sich Cloud Computing vom (klassischen) IT Outsourcing ?
 
 Beispiel:
 
-* Rechenzentrum wird übernommen
-* Betrieb wird ausgelagert
+* Rechenzentrumsbetrieb wird ausgelagert
 * Software wird per Spezifikation geschrieben und betrieben
 
 note: * beides sind Dienstleistungen aus Sicht des Nutzers
@@ -150,3 +149,15 @@ note: * beides sind Dienstleistungen aus Sicht des Nutzers
 * bietet einen individuellen Service für einen bestimmten Kunden, Kundenwünsche können berücksichtigt werden
 * Dienstleistungen können von Hosting, Entwicklung, Support etc. alles sein
 * der Kunde teilt die gekauften Service-Leistungen nicht mit anderen Kunden (Single-Tenant)
+
+down:
+
+## Aufgabe
+
+Nennt Beispiele für Cloud Computing Dienste und zeige auf inwiefern diese den Cloud-Computing Eigenschaften nach NIST genügen. Stellt diese Eigenschaften im jeweiligen Dienst vor.
+
+30 min.
+
+Beispiele:
+
+- Spotify, Gmail, Office365, Slack, Dropbox, AWS EC2, AWS Lambda Functions, Pivotal Cloud Foundry, Azure Cognitive Services

@@ -20,6 +20,15 @@ essentiell u.a. für:
 
 down:
 
+## Virtualisierung: HandsOn Demo
+
+* [Virtual Box](https://www.virtualbox.org/)
+* [Docker](https://www.docker.com/)
+
+60 min.
+
+down:
+
 ## Virtualisierung
 
 <iframe src='//players.brightcove.net/1534342432001/Byh3doRJx_default/index.html?videoId=3879037056001' allowfullscreen frameborder=0></iframe>

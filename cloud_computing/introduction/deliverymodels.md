@@ -151,3 +151,12 @@ Quelle: http://dailyitproblems.azurewebsites.net/wp-content/uploads/2013/12/Clou
 note: * Begriffe - on-premise, off-premise erklären
 * hosted / managed erklären
 * Unternehmen fangen gerne mit Private Cloud Lösungen an und bieten SaaS Lösungen public an -> Hybrid Cloud
+
+down:
+
+## Aufgabe
+
+Erläutere die Begriffe 'Multi Tenancy', 'Availability Zones', 'Elastic Computing' im Kontext von Cloud Computing.
+Beschreiben Sie Funktion(sweise), Bedeutung aus Kundensicht/Provider-Sicht. Vergleichen Sie mit klassischen Hosting Diensten e.g. Strato
+
+30 min.

@@ -54,10 +54,10 @@ note: * schon allgegenwärtig, KMUs Großunternehmen und auch Privatleute nutzen
 
 down:
 
-Cloud Monitor 2016 von KPMG / Bitkom Research
-<video class="stretch" controls>
-  <source src="media/bitkom.mp4" type="video/mp4">
-</video>
+Cloud Monitor 2017 von KPMG / Bitkom Research
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sXXBwlqDwwI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+[Cloud Monitor 2017](https://www.bitkom.org/Presse/Anhaenge-an-PIs/2017/03-Maerz/Bitkom-KPMG-Charts-PK-Cloud-Monitor-14032017.pdf)
 
 note: spiegelt sich im Cloud Monitor wider, allerdings Deutschland ist ein Nachzügler, in Amerika schon längst verbreiteter: alle Start-ups hosten in der Cloud Beispiele
 
