@@ -15,6 +15,32 @@ down:
 
 ## Use Case
 
+T-Systems (Telekom) & Hamburg
+
+Park and Joy
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EE-3k52lhPE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+down:
+
+## Use Case
+
+<img src="media/telekom-parksensor.jpg" width="50%" height="50%" />
+<br>
+Quelle: Telekom
+
+down:
+
+## Use Case
+
+Bosch Automated Valet Parking
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jhYfgjWIvck?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+down:
+
+## Use Case
+
 Bosch eCall Plugin
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lT0Ax1SMM5U?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -61,9 +87,14 @@ Here HD Map
 
 down:
 
-## Frage
+## Diskussion
 
-Was sind die Kerntechnologien bei 'Connected Mobility' ?
+Was sind/werden die Kerntechnologien bei 'Connected Mobility' (sein) ?
+
+<!-- .element: class="fragment" data-fragment-index="1" --> Telekommunikation
+<!-- .element: class="fragment" data-fragment-index="2" --> Automatisiertes Fahren
+<!-- .element: class="fragment" data-fragment-index="3" --> Cloud Computing
+<!-- .element: class="fragment" data-fragment-index="2" --> Human-Machine-Interaction
 
 down:
 

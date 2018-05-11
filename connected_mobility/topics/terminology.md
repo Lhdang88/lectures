@@ -1,5 +1,13 @@
 ## Connected Mobility ...
 
+... Vision:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4B7mZFU2sB4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+down:
+
+## Connected Mobility
+
 was bedeutet es genau ?
 
 - keine allgemein anerkannte akademische Begriffsdefinition
@@ -7,7 +15,7 @@ was bedeutet es genau ?
 
 down:
 
-## Besipiel
+## Beispiel
 
 Begriffsumschreibung:
 
@@ -23,4 +31,4 @@ down:
 
 ## Ein eigener Versuch ...
 
-- 'Connected Mobility' beschreibt Dienste und Technologien welche durch Vernetzung von Transportmitteln, Verkehrsinfrastruktur und Internetdienste basieren. Sie dient dem Zweck die Fortbewegung sicherer, intelligenter, effizienter und kompfortabler zu machen.
+- 'Connected Mobility' beschreibt Dienste und Technologien welche durch Vernetzung von Transportmitteln, Verkehrsinfrastruktur und Internetdienste entstehen. Sie dienen dem Zweck die Fortbewegung sicherer, intelligenter, effizienter und kompfortabler zu machen.
