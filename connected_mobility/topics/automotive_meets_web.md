@@ -70,7 +70,3 @@ Experten:
 <img src="media/google.png" width="100px" height="80px" />
 <img src="media/uber.png" width="200px" height="80px" />
 <img src="media/apple.png" width="80px" height="80px" />
-
-down:
-
-

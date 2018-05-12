@@ -1,0 +1,2 @@
+## Skalierung mit Kubernetes (AKS)
+

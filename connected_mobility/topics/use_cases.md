@@ -89,12 +89,12 @@ down:
 
 ## Diskussion
 
-Was sind/werden die Kerntechnologien bei 'Connected Mobility' (sein) ?
+Welche Technologien sind (werden) die Treiber bei 'Connected Mobility' (sein) ?
 
-<!-- .element: class="fragment" data-fragment-index="1" --> Telekommunikation
-<!-- .element: class="fragment" data-fragment-index="2" --> Automatisiertes Fahren
-<!-- .element: class="fragment" data-fragment-index="3" --> Cloud Computing
-<!-- .element: class="fragment" data-fragment-index="2" --> Human-Machine-Interaction
+* <!-- .element: class="fragment" data-fragment-index="1" --> Telekommunikation ?
+* <!-- .element: class="fragment" data-fragment-index="2" --> AI ?
+* <!-- .element: class="fragment" data-fragment-index="3" --> Cloud Computing ?
+* <!-- .element: class="fragment" data-fragment-index="4" --> Human-Machine-Interaction ?
 
 down:
 
@@ -105,6 +105,3 @@ down:
 * NVidea, Intel
 * Bosch, Continental
 * Here, TomTom
-
-down:
-
