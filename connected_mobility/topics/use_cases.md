@@ -1,5 +1,12 @@
 ## Use Cases
 
+<img src="media/connected_mobility_services.png" width="500px" height="400px">
+* Ptolomeus Consulting Group
+
+down:
+
+## Use Cases
+
 Car2Go
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ux2VZvNUrHA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -99,9 +106,35 @@ Welche Technologien sind (werden) die Treiber bei 'Connected Mobility' (sein) ?
 down:
 
 ## Market Players
+<img src="media/marketplayers.png" width="70%" height="50%"/>
+* Roland Berger
+
+down:
+
+## Market Players
+
+* Automotive OEMs
+* Öffentlicher Nahverkehr
+* Überregionaler Öffentlicher Verkehr (DB, Bus)
+* Telekommunikationsanbieter
+* Internet Firmen
+* Technologie Dienstleister
+
+
+down:
+
+## Market Players
 
 * Google, Tesla, Uber
 * OEMs (Daimler, BMW, VW, Toyota etc.)
 * NVidea, Intel
 * Bosch, Continental
 * Here, TomTom
+* Car2Go, BlaBlaCar
+
+down:
+
+## Market Players
+
+* OEMs, IT Firmen: Mobility Service Provider (Plattformbetreiber)
+* Telekommunikation, Städte, Länder: Connectivity Service Provider (Infrastrukturbetreiber)

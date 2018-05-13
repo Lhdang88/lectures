@@ -26,3 +26,4 @@ Erstellt für einen simplen Connected Mobility Use Case das Backend System in de
 Use-Case Beispiel:
 
 * Auto Lokalisationsdienst
+* Flottenmanagement (bspw. für Taxi Unternehmen)

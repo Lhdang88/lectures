@@ -6,6 +6,14 @@
 
 down:
 
+## Konkretes Beispiel
+
+<img src="media/cm_roland_berger.png" width="70%" height="60%"/><br>
+<img src="media/cm_roland_berger2.png" width="70%" height="60%"/><br>
+* Roland Berger
+
+down:
+
 ## Connected Mobility
 
 was bedeutet es genau ?
