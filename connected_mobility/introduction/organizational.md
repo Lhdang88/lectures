@@ -2,10 +2,10 @@
 
 |VL|Datum|Uhrzeit| Dozent |
 |:----|----:|----:|----:|
-|1.|Do., 17.Mai|9:00 - 16:30| Le |
-|2.|Fr., 18.Mai|9:00 - 12:15| Le |
-|3.|Do., 24.Mai|9:00 - 12:15| Schmitz |
-|4.|Fr., 25.Mai|9:00 - 12:15| Schmitz |
+|1.|Do., 17.Mai|10:00 - 17:00| Le |
+|2.|Fr., 18.Mai|8:00 - 15:00| Le |
+|3.|Do., 07.Juni|10:00 - 17:00| Schmitz |
+|4.|Fr., 08.Juni|8:00 - 15:00| Schmitz |
 
 down:
 
@@ -13,16 +13,16 @@ down:
 
 |VL|Datum|Uhrzeit| Dozent |
 |:----|----:|----:|----:|
-|5.|Do., 07.Jun|9:00 - 12:15| Le |
-|6.|Fr., 08.Jun|9:00 - 12:15| Le |
-|7.|Do., 14.Jun|9:00 - 12:15| Schmitz |
-|8.|Fr., 15.Jun|9:00 - 12:15| Schmitz |
+|5.|Do., 14.Juni|10:00 - 17:00| Le |
+|6.|Fr., 15.Juni|8:00 - 15:00| Le |
+|7.|Do., 21.Juni|10:00 - 17:00| Schmitz |
+|8.|Fr., 22.Juni|8:00 - 15:00| Schmitz |
 
 down:
 
 ## Klausur
 
-Termin: ?????
+Termin: 21.Juli
 
 Connected Mobility
 
@@ -38,7 +38,3 @@ down:
 Github - VL. Le:
 <font size="5">
 [https://github.com/Lhdang88/lectures/tree/master/connected_mobility/pdf/ss2018](https://github.com/Lhdang88/lectures/tree/master/connected_mobility/pdf/ss2018)</font>
-
-Github - VL. Schmitz:
-<font size="5">
-[TODO](https://github.com/todo)</font>
