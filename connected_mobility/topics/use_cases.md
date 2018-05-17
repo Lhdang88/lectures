@@ -94,6 +94,14 @@ Here HD Map
 
 down:
 
+## Frage
+
+Wie funktioniert eine Server-zu-Client Kommunikation (im Gegensatz zu Client-Server / "Pull") ?
+
+* ist es releventas Kommunikationsmuster in Connected Mobility Umfeld ?
+
+down:
+
 ## Diskussion
 
 Welche Technologien sind (werden) die Treiber bei 'Connected Mobility' (sein) ?
