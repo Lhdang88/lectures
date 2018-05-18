@@ -37,6 +37,10 @@ Betreibt die Hello-World App im MS Azure AKS Cluster:
 * die App soll über das Internet zugreifbar sein
 * RESTful API soll 'CarData' in MongoDB abspeichern
 
+templates: <br>
+<a href="topics/deployment.yml">deployment.yml</a><br>
+<a href="topics/service.yml">service.yml</a>
+
 down:
 
 #### Aufgabe 3
@@ -45,3 +49,6 @@ Betreibt die Hello-World App als MS Azure Function:
 
 * die App soll über das Internet zugreifbar sein
 * alle bisherigen RESTful API functions sollen implementiert werden
+
+down:
+
