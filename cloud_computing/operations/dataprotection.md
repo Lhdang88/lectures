@@ -14,7 +14,7 @@ down:
 
 down:
 
-### Welche Daten sind schutzbedürftig ?
+### Recap: Welche Daten sind schutzbedürftig ?
 
 * Beispiele:
   * Steuerlich relevante Daten (§146 Abs. 2 S1 AO)
@@ -32,7 +32,7 @@ down:
 
 down:
 
-#### Was sind Personenbezogene Daten ?
+#### Recap: Was sind Personenbezogene Daten ?
 
 * §3 Abs. 1 BDSG:
   * "(1) Personenbezogene Daten sind Einzelangaben über persönliche oder sachliche Verhältnisse einer bestimmten oder bestimmbaren natürlichen Person (Betroffener)"
@@ -40,7 +40,7 @@ down:
 
 down:
 
-#### Was sind Personenbezogene Daten ?
+#### Recap: Was sind Personenbezogene Daten ?
 
   * die Identität einer Person aus dem Inhalt des Datums oder mit Zusatzwissen sich herstellen lässt
 * Quellen:
@@ -49,7 +49,7 @@ down:
 
 down:
 
-#### Was sind Personenbezogene Daten ?
+#### Recap: Was sind Personenbezogene Daten ?
 
 * Beispiele:
   * Alter, Augenfarbe, Geburtsort
@@ -58,14 +58,14 @@ down:
 
 down:
 
-#### besonders schutzwürdige Personenbezogene Daten
+#### Recap: besonders schutzwürdige Personenbezogene Daten
   * "(9) Besondere Arten personenbezogener Daten sind Angaben über die rassische und ethnische Herkunft, politische Meinungen, religiöse oder philosophische Überzeugungen, Gewerkschaftszugehörigkeit, Gesundheit oder Sexualleben"
   * Verlust kann erhebliche Konsequenzen für die betroffene Person haben
   * es gelten erhöhte Schutzmaßnahmen
 
 down:
 
-### Anwendbarkeit
+### Recap: Anwendbarkeit
 
 * anonymisierte Daten
   * BDSG findet keine Anwendung wenn die Daten so anonymisiert sind dass nur mit unverhältnismäßigem Aufwand die Daten einer Person zugeordnet werden können
@@ -74,7 +74,7 @@ down:
 
 down:
 
-### Anwendbarkeit
+### Recap: Anwendbarkeit
 
 * zentrale Bedeutung hat die "verantwortliche Stelle" (Person die Daten für sich selbst erhebt und verarbeitet bzw. für sich verarbeiten lässt)
 * befindet sich diese in der EU/EWR oder Deutschland findet das jeweilige Nationale Recht bzw. deutsches Datenschutzrecht Anwendung
@@ -82,7 +82,7 @@ down:
 
 down:
 
-### Anwendbarkeit
+### Recap: Anwendbarkeit
 
 * Sitzlandprinzip (europäisches Recht)
   * Europ. Datenschutzrichtlinie (EU-DSRL) Art. 4 Abs. 1a), b): kommt es für die Anwendbarkeit einzelstaatlichen Rechts darauf an, in welchem Mitgliedstaat die Daten verarbeitende Niederlassung ihren Sitz hat.
@@ -95,7 +95,7 @@ down:
 
 down:
 
-### Anwendbarkeit
+### Recap: Anwendbarkeit
 
 * Territorialprinzip
   * das jeweilige Nationale Recht findet Anwendung in der die Datenerhebung, -verarbeitung, -nutzung stattfindet, d.h. in dem Land an dem sich die Server befinden
@@ -106,13 +106,13 @@ down:
 
 down:
 
-### Auftragsdatenverarbeitung
+### Recap: Auftragsdatenverarbeitung
 
 Welche Regelungen gibt es damit Daten zur Verarbeitung in eine Cloud transferiert werden können ?
 
 down:
 
-### Auftragsdatenverarbeitung (§11 BDSG)
+### Recap: Auftragsdatenverarbeitung (§11 BDSG)
 
 * betrifft das Outsourcing von Datenverarbeitung
 * regelt die Verantwortlichkeit im Sinne des Datenschutzes, zwischen dem Auftraggeber und Auftragsnehmer
@@ -122,7 +122,7 @@ down:
 
 down:
 
-### Beispiel Cloud Computing: SaaS
+### Recap: Beispiel Cloud Computing: SaaS
 
 * Rollen: Cloud-Nutzer (Person o. Firma), Cloud Anbieter, Rechenzentrumsbetreiber
 * Verantwortliche Stelle ist der Cloud Nutzer, dieser lässt über Auftragsdatenverarbeitung personenbezogene Daten durch den Cloud Anbieter und Rechenzentrumsbetreiber (Subbeauftragung) verarbeiten
@@ -131,7 +131,7 @@ down:
 
 down:
 
-### Mindestanforderungen für die Auftragsdatenverarbeitung
+### Recap: Mindestanforderungen für die Auftragsdatenverarbeitung
 <div style="text-align: left;">
 <font size="4">
 1. Gegenstand und Dauer des Auftrags<p>
@@ -149,7 +149,7 @@ down:
 
 down:
 
-#### Verarbeitung von personenbezogenen Daten außerhalb der EU
+#### Recap: Verarbeitung von personenbezogenen Daten außerhalb der EU
 <div style="text-align: left;">
 <font size="5">
 - nach BDSG nur erlaubt wenn die Einwilligung aller Betroffenen eingeholt wurde oder ein angemessenes Datenschutzniveau im Drittland sichergestellt ist (§ 4b Abs. 2, 3 BDSG)<p>

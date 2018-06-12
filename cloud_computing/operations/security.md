@@ -272,22 +272,6 @@ down:
 
 down:
 
-#### Searchable Encryption
-
-* Motivation:
-  * Verschlüsselung von Daten in der Cloud
-  * Ausführung von Suchen auf verschlüsselten Daten
-
-* Ansätze:
-  * Deterministic Encryption
-  * Symetric Searchable Encryption
-  * Asymetric Searchable Encryption
-  * Oblivious RAM
-
-* <font size="4" />http://outsourcedbits.org/categories/encrypted-search/ </font>
-
-down:
-
 ## Identity Management in der Cloud
 
 * Authentifizierung
@@ -386,11 +370,6 @@ down:
 * kann als Identity Provider für eine Cloud-Integration dienen
 * ADFS authentifiziert User gegen On-Premise Enterprise AD
 * ADFS generiert SAML Tokens für konfigurierte Trusts (Cloud Services)
-
-down:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8xNuPhDVbHU" frameborder="0" allowfullscreen></iframe>
-* https://www.youtube.com/embed/8xNuPhDVbHU
 
 down:
 
