@@ -16,6 +16,7 @@ down:
 * Microsoft Azure
 * Kubernetes
 * NodeJS
+* Gitlab
 
 down:
 
