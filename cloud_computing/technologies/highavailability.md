@@ -107,6 +107,10 @@ down:
 Realisierung: Regions & Zones & Sets
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PP02QxplC2E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<font size="5">
+<p>https://www.youtube.com/watch?v=PP02QxplC2E</p>
+<p>https://docs.microsoft.com/en-us/azure/virtual-machines/windows/regions-and-availability</p>
+</font>
 
 down:
 
@@ -119,7 +123,7 @@ Redundante
 
 down:
 
-### Server Redundanz
+### Server / Hardware Redundanz
 
 Redundante:
 - Festplatten: RAID
@@ -170,18 +174,17 @@ down:
 
 ### Probleme: Verteilte Systeme
 
-- Um High Availability zu erreichen, betreibt man einen Cluster bzw. mehrere Instanzen einer Applikation
-- Stateful-Daten müssen über alle Applikationsinstanzen hinweg verteilt (repliziert) werden
+- Um High Availability zu erreichen, betreibt man einen Cluster mit mehreren Instanzen einer Applikation
+- Problem: Stateful-Daten müssen über alle Applikationsinstanzen hinweg verteilt (repliziert) werden
 - zu persistierende Daten müssen in Datenbanken abgespeichert werden
-- Auslagerung in einer Datenbank oder Cache oder Netzwerk Storage (Festplatte)
+- wie erreicht man eine hohe Verfügbarkeit bei Datenbanken ? 
 
 down:
 
 ### Probleme: Verteilte Systeme
 
-- wie erreicht man eine hohe Verfügbarkeit bei Datenbanken ? 
 - Daten werden mehrfach (repliziert) und verteilt (sharding) abgespeichert
-- wie erreicht man Konsistenz ? (alle Anfragen gegen die Datenbank erhalten das gleiche Ergebnis)
+- wie erreicht man Konsistenz ? (alle Anfragen gegen die Datenbank liefern das gleiche Ergebnis zurück)
 - Daten werden synchronisiert (abgespeichert)
 - Was für ein Problem haben wir ?
 
@@ -236,10 +239,6 @@ down:
 
 down:
 
-### Abschlussfrage
+### Frage
 
-- Was ist Bitcoin für ein System ? CP oder AP ?
-
-down:
-
-## Fragen zur Klausur ?
+- Was ist Bitcoin/Facebook/Instagram/Amazon(Shopping Cart) für ein System ? CP oder AP ?

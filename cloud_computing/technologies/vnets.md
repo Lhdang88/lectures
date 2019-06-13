@@ -1,6 +1,27 @@
-### Recap: NAT (letzte Vorlesung)
+### Computer Netzwerke
 
-Frage: Wie werden Computer innerhalb eines Heimnetzwerkes vor Zugriffen von außerhalb durch NAT "geschützt" ?
+* Woraus besteht ein Computer Netzwerk ?
+* <!-- .element: class="fragment" data-fragment-index="1" --> Firewall
+* <!-- .element: class="fragment" data-fragment-index="2" --> Router, Switch
+* <!-- .element: class="fragment" data-fragment-index="3" --> Loadbalancer
+* <!-- .element: class="fragment" data-fragment-index="4" --> Network Interface Cards
+* <!-- .element: class="fragment" data-fragment-index="5" --> etc.
+
+Frage: wie sieht ein typisches Heimnetzwerk aus ?
+
+down:
+
+### Basics: Hub, Switch, Router
+
+- Hub
+- Switch
+- Router
+
+down:
+
+### Basics: NAT
+
+Wie kommunizieren Heim-Computer mit dem Internet ?
 
 down:
 
@@ -10,21 +31,19 @@ down:
 
 down:
 
+### Basics: IP Adresse (IPv4, IPv6)
+
+- IPv4: 32-bit Adressraum
+- private IPs vs public IPs
+- private: 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12
+- IPv6: 128-bit Adressraum
+
+down:
+
 ### Virtuelle Netzwerke (am Beispiel Azure VNet)
 
 * Was ist ein Virtuelles Netzwerk ?
 * Was ist Netzwerkvirtualisierung
-
-down:
-
-### Virtuelle Netzwerke
-
-* Woraus besteht ein Computer Netzwerk ?
-* <!-- .element: class="fragment" data-fragment-index="1" --> Firewall
-* <!-- .element: class="fragment" data-fragment-index="2" --> Router, Switch
-* <!-- .element: class="fragment" data-fragment-index="3" --> Loadbalancer
-* <!-- .element: class="fragment" data-fragment-index="4" --> Network Interface Cards
-* <!-- .element: class="fragment" data-fragment-index="5" --> etc.
 
 down:
 
@@ -97,6 +116,16 @@ down:
 * Performance: Direkte Kommunikation zwischen Netzwerk Komponenten (innerhalb des VNets) 
 * Organisation: Backend Servers (DBs, Storage etc.) vs Internet Facing Servers (Web Apps)
 * Kontrolle: security policies, DNS routing, FW-Regeln, Subnets
+
+down:
+
+### Frage vor der Pause
+
+* Was ist das OSI Modell ?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Hh3AYZf4bIk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+[OSI Modell](https://de.wikipedia.org/wiki/OSI-Modell)
 
 down:
 
@@ -203,16 +232,6 @@ down:
 
 down:
 
-### VNet Demo mit Azure Container Services (AKS)
-
-down:
-
-### Frage zum Überbrücken des Deployments: Was sind die Unterschiede zwischen Hub/Switch/Router ?
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ofjsh_E4HFY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-down:
-
 ### Cloud Networking - Loadbalancer
 
 * Was ist ein Loadbalancer ?
@@ -233,16 +252,6 @@ down:
 
 * features:
 * Loadbalancer algorithmen: source IP-hash basierte Verteilung, affinity basierte Verteilung
-
-down:
-
-### Bonusfrage
-
-* Was ist das OSI Modell ?
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Hh3AYZf4bIk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-[OSI Modell](https://de.wikipedia.org/wiki/OSI-Modell)
 
 down:
 

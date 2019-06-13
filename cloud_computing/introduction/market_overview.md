@@ -4,11 +4,11 @@
 <tr>
   <td style="width: 50%;"><img src="media/cloud-char-confused.svg" class="stretch"/></td>
   <td style="font-size: 80%; vertical-align: middle; text-align: left;">
-    ... ein Buzzwort ?
-    <br><br>
-    ... ein Hype ?
+    ... Computer in den Wolken ?
     <br><br>
     ... "ist doch nicht neu ! Gab's früher auch schon ..."
+    <br><br>
+    ... und was hab ich davon ?
   </td>
 </tr>
 </table>
@@ -63,10 +63,28 @@ note: spiegelt sich im Cloud Monitor wider, allerdings Deutschland ist ein Nachz
 
 down:
 
+![Marktnutzung](https://www.bitkom.org/sites/default/files/image/import/180611-Cloud-Computing-KPMG-PG.png)
+
+- https://www.bitkom.org/sites/default/files/image/import/180611-Cloud-Computing-KPMG-PG.png
+
+down:
+
+"Trendthemen sind ... **Multi-Cloud**, **Cloud-Hosting**, Blockchain, Edge Computing, Robotic Process Automation (RPA), **Managed Services** und Künstliche Intelligenz (KI)"
+
+- https://www.cloudmagazin.com/2019/01/04/cloud-computing-das-sind-die-trends-2019/
+
+down:
+
 Public Cloud Market Share
 ![Cloud Market Share by Synergy Research 2017](media/cloud-market-share-2017.jpg)
 
 Synergy Research Group 2016
+
+down:
+
+![public cloud world wide](https://www.canalys.com/static/press_release/images/Cloud%202018%20totalv2.jpg)
+
+- https://www.canalys.com/newsroom/cloud-market-share-q4-2018-and-full-year-2018
 
 down:
 
