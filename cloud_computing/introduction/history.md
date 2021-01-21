@@ -59,7 +59,7 @@ down:
 
 <img src="media/cncf-cloud-customized.png" width="70%" height="70%"/>
 <br>
-* verändert, Original von [CNCF Keynote - A Brief History Of The Cloud](http://events.linuxfoundation.org/sites/events/files/slides/CNCF%20Keynote%20Preso.pdf)
+<font size="4">http://events.linuxfoundation.org/sites/events/files/slides/CNCF%20Keynote%20Preso.pdf</font>
 
 down:
 

@@ -1,131 +1,104 @@
 ## Cloud Computing ...
 
-<table>
-<tr>
-  <td style="width: 50%;"><img src="media/cloud-char-confused.svg" class="stretch"/></td>
-  <td style="font-size: 80%; vertical-align: middle; text-align: left;">
-    ... Computer in den Wolken ?
-    <br><br>
-    ... "ist doch nicht neu ! Gab's früher auch schon ..."
-    <br><br>
-    ... und was hab ich davon ?
-  </td>
-</tr>
-</table>
+Was ist Cloud Computing ?
 
-note: Ist in aller Munde, aber CC schon etabliert ? Aber ist es nur ein weiterer Hype wie reif ist die Technik ?
-* Was denken Studenten: Wieviel Prozent der Unternehmen nutzen schon die Cloud ?
-* Welche Dienste basieren komplett auf Cloud Infrastruktur ? Und Warum ?
+Wie ist die allgemeine Akzeptanz ?
+
+Welche Fragen zum Thema Cloud Computing gibt es ?
 
 down:
 
-Gartner Hype Cycle 2008 Emerging Technologies
+Cloud Computing Intro by AWS:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dH0yz-Osy54" frameborder="0" allowfullscreen></iframe>
+<br>
+<font size="4">https://www.youtube.com/watch?v=dH0yz-Osy54</font>
+
+down:
+
+The Hype
+
 <img src="media/Hype2008.jpg" width="75%" height="65%"/>
-
-note: Erklärung Hype Cycle von Gartner, Erfunden von Jackie Fenn 1995 von Gartner (Marktforschungsunternehmen), um die Entwicklung (Adoption) von Technologie Trends vorherzusagen
-* Interessanterweise erst 2 Jahre nach AWS Launch, der erste IaaS Public Cloud Provider und Marktführer
+<br>
+<font size="4">Gartner Hype Cycle 2008 Emerging Technologies</font>
 
 down:
 
-Gartner Hype Cycle 2010 Emerging Technologies
 <div style="background-color: white;">
 <img src="media/Hype2010.png" width="75%" height="65%"/>
 </div>
-
-note: * 2008, Google (App Engine) und Microsoft Azure nachgezogen
-* Höhepunkt
+<br>
+<font size="4">Gartner Hype Cycle 2010 Emerging Technologies</font>
 
 down:
 
-Gartner Hype Cycle 2013 Emerging Technologies
 <img src="media/Hype2013.png" width="75%" height="65%"/>
-
-note: * Tal der Desillusionen (IaaS setzt sich durch, PaaS noch nicht im kommen)
+<br>
+<font size="4">Gartner Hype Cycle 2013 Emerging Technologies</font>
 
 down:
 
-Gartner Hype Cycle 2015 Emerging Technologies
 <img src="media/Hype2015.jpg" width="75%" height="65%"/>
-
-note: * schon allgegenwärtig, KMUs Großunternehmen und auch Privatleute nutzen schon Cloud Computing (auch ohne es zu Wissen Dropbox, GMail), siehe z.B. Werbung von IBM (Größeres Büro)
-* Themen wie IoT, BigData werden heutzutage nur über Cloud Infrastrukturen betrieben
-* bei IoT erwartet man in 2016 16 Mrd. Geräte, Riesenmarkt mit Potential für Bosch alle Kühlschränke, Rasenmäher, Bohrmaschinen, Autos miteinander zu vernetzen
-* Sidenote- AR ist jetzt im kommen, Pokemon Go, Snapchat, Facebook F8 Conference (AR Platform, Camera Effects Platform, AR Studio)
+<br>
+<font size="4">Gartner Hype Cycle 2015 Emerging Technologies</font>
 
 down:
 
 Cloud Monitor 2017 von KPMG / Bitkom Research
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sXXBwlqDwwI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-[Cloud Monitor 2017](https://www.bitkom.org/Presse/Anhaenge-an-PIs/2017/03-Maerz/Bitkom-KPMG-Charts-PK-Cloud-Monitor-14032017.pdf)
+<br>
+<font size="4">https://youtu.be/sXXBwlqDwwI</font>
+<br>
+<font size="4">https://www.bitkom.org/Presse/Anhaenge-an-PIs/2017/03-Maerz/Bitkom-KPMG-Charts-PK-Cloud-Monitor-14032017.pdf</font>
 
 note: spiegelt sich im Cloud Monitor wider, allerdings Deutschland ist ein Nachzügler, in Amerika schon längst verbreiteter: alle Start-ups hosten in der Cloud Beispiele
 
 down:
 
 ![Marktnutzung](https://www.bitkom.org/sites/default/files/image/import/180611-Cloud-Computing-KPMG-PG.png)
-
-- https://www.bitkom.org/sites/default/files/image/import/180611-Cloud-Computing-KPMG-PG.png
-
-down:
-
-"Trendthemen sind ... **Multi-Cloud**, **Cloud-Hosting**, Blockchain, Edge Computing, Robotic Process Automation (RPA), **Managed Services** und Künstliche Intelligenz (KI)"
-
-- https://www.cloudmagazin.com/2019/01/04/cloud-computing-das-sind-die-trends-2019/
+<font size="4"> https://www.bitkom.org/sites/default/files/image/import/180611-Cloud-Computing-KPMG-PG.png </font>
 
 down:
 
-Public Cloud Market Share
-![Cloud Market Share by Synergy Research 2017](media/cloud-market-share-2017.jpg)
+Public Cloud Market Share (IaaS)
 
-Synergy Research Group 2016
-
-down:
-
-![public cloud world wide](https://www.canalys.com/static/press_release/images/Cloud%202018%20totalv2.jpg)
-
-- https://www.canalys.com/newsroom/cloud-market-share-q4-2018-and-full-year-2018
+<img src="https://cdn.statcdn.com/Infographic/images/normal/18819.jpeg" height="50%" width="50%" />
+<font size="4">https://www.statista.com/chart/18819/worldwide-market-share-of-leading-cloud-infrastructure-service-providers/</font>
 
 down:
 
-Bespiele bekannter Cloud-Dienste, Stand 2017
-
-<table>
-<tr>
-  <td style:"width: 25%;"><img src="media/AWS-Logo.png" style="width: 250px; height: 100px;"/></td>
-  <td style:"width: 25%;"><img src="media/azure-logo.png" style="width: 150px; height: 100px;"/></td>
-  <td style:"width: 25%;"><img src="media/GCP-Logo.png" style="width: 250px; height: 100px;"/></td>
-</tr>
-<tr>
-  <td><img src="media/Netflix-Logo.png" style="width: 300px; height: 80px;"/></td>
-  <td><img src="media/ebay-logo.png" style="width: 200px; height: 80px;"/></td>
-  <td><img src="media/spotify-logo.jpg" style="width: 200px; height: 80px;"/></td>
-</tr>
-<tr>
-  <td><img src="media/reddit.png" style="width: 180px; height: 80px;"/></td>
-  <td><img src="media/heineken-beer.jpg" style="width: 130px; height: 80px;"/></td>
-  <td><img src="media/snapchat-logo.svg" style="width: 200px; height: 80px;"/><img src="media/pokemon_go_logo.png" style="width: 200px; height: 80px;"/></td>
-</tr>
-</table>
-
-note: Netflix betreibt keine Rechenzentren, nach 7 Jahre Migration, laufen seit 2016 komplett auf AWS, da sie erkannt haben dass ihre Expertise nicht in den Betrieb von Rechenzentren liegt
-* Funny - CIA läuft mithilfe von AWS (Private Cloud),
-* Pokemon Go - hatte Skalierungsprobleme wegen dem Hype 50-fache an Anfragen über dem Target Estimate
+![Big 3 Public Cloud Market Share](media/Big3MarketShare.png)
 
 down:
 
-![bitcom](media/Bitkom-Cloud.jpg)
-
-note: Akzeptanz steigt, 2 gegensätzliche Trends, Private Cloud sinkt, Public Cloud steigt
-
-down:
-
-Cloud Monitor 2016 von KPMG / Bitkom Research
-![KPMG-Cloud Monitor2016](media/KPMG-Cloud.png)
+<img src="media/GartnerMarketShare.png" height="80%" width="80%" />
+<font size="4">https://www.gartner.com/en/newsroom/press-releases/2020-08-10-gartner-says-worldwide-iaas-public-cloud-services-market-grew-37-point-3-percent-in-2019 </font>
 
 down:
 
-Cloud Monitor 2016 von KPMG / Bitkom Research
-![KPMG-Cloud Monitor2016](media/KPMG-Kundenanforderungen.png)
+<img src="https://blogs-images.forbes.com/louiscolumbus/files/2019/06/CRM-Market-share-table.jpg" height="80%" width="80%" />
+<font size="4">https://www.forbes.com/sites/louiscolumbus/2019/06/22/salesforce-now-has-over-19-of-the-crm-market/?sh=68896556333a</font>
 
-note: Hemnisse sind Datensicherheit/Datenschutz, Standort in Deutschland/EU ist sehr wichtig -> Datenschutzgesetz
+down:
+
+Cloud Trends...
+
+- SaaS: Remote Work Tools - MS Teams, Google Meet
+- Multi-Cloud
+- AI, Analytics, IoT, Edge Computing
+
+<font size="4">https://www.zdnet.com/article/the-top-cloud-providers-of-2020-aws-microsoft-azure-google-cloud-hybrid-saas</font>
+
+- Blockchain, Edge Computing, Robotic Process Automation (RPA), **Managed Services** und Künstliche Intelligenz (KI)
+
+<font size="4">https://www.cloudmagazin.com/2019/01/04/cloud-computing-das-sind-die-trends-2019 </font>
+
+down:
+
+Info Links:
+
+<font size="4">https://www.zdnet.com/article/the-top-cloud-providers-of-2020-aws-microsoft-azure-google-cloud-hybrid-saas</font>
+<p>
+<font size="4">https://kinsta.com/de/blog/cloud-marktanteil</font>
+<p>
+<font size="4">https://hostingtribunal.com/blog/aws-facts/</font>

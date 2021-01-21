@@ -15,16 +15,28 @@ down:
 
 down:
 
-#### Beispiel: Auto-Scaling bei Kubernetes (CaaS)
+#### Beispiel: Auto-Scaling bei Kubernetes
+
+* auf Pod-Ebene (Container): Horizontal Pod Autoscaler, Vertical Pod Autoscaler
+* auf Node-Ebene (VMs): Cluster Autoscaler
+
+<p>
+<font size="4">https://medium.com/better-programming/build-kubernetes-autoscaling-for-cluster-nodes-and-application-pods-bb7f2d716b07</font>
+<p>
+<font size="4">https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale</font>
+
+down:
+
+#### Beispiel: Horizontal Pod Autoscaler (HPA)
 
 * Monitoring von Basis-Metriken: CPU und Mem
 * Skalierung auf Pod-Ebene (min/max Pod Instanzen)
-* Skalierung über die Definition einer HPA (Horizontal Pod Autoscaler) Konfiguration
+* Skalierung über die Definition einer HPA Konfiguration
 * Auto-Scaling ist reaktiv und basiert Über-/Unterschreitung von CPU-Last-Grenzen
 
 down:
 
-#### Beispiel: Auto-Scaling bei Kubernetes (CaaS)
+#### Beispiel: Auto-Scaling bei Kubernetes
 
 * Scale-out - Hinzufügen von Instanzen:
   * Pod Instanz wird aus dem Pod-Template instanziiert
@@ -36,7 +48,7 @@ down:
 
 down:
 
-#### Beispiel: Auto-Scaling bei Kubernetes (CaaS)
+#### Beispiel: Auto-Scaling bei Kubernetes
 
 * Status Überwachung: Health-Checking
   * über HTTP-Endpunkt: z.B. /heathcheck, (http-response-Code: 200 bedeutet "OK", ansonsten "NOK")

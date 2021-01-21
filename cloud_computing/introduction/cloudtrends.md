@@ -38,11 +38,21 @@ down:
 
 down:
 
-## Docker Demo (Teil 2)
+## Docker Demo
 
-App-Containerisierung:
-
-![packaging](media/packaging.gif)
+App-Containerisierung: "Dockerization"
+<p>
+<font size="4">Dockerfile: https://docs.docker.com/engine/reference/builder/</font>
+<p>
+<font size="4">Docker build: https://docs.docker.com/engine/reference/commandline/build/</font>
+<p>
+<font size="4">Docker run: https://docs.docker.com/engine/reference/run/</font>
+<p>
+<font size="4">Docker push: https://docs.docker.com/engine/reference/push/</font>
+<p>
+<font size="4">Docker pull: https://docs.docker.com/engine/reference/pull/</font>
+<p>
+<font size="4">Docker Compose up: https://docs.docker.com/compose/reference/up/</font>
 
 down:
 
@@ -52,12 +62,18 @@ down:
 
 down:
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aSrqRSk43lY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>
+<font size="4">https://youtu.be/aSrqRSk43lY</font>
+
+down:
+
 ## Container Orchestrierung
 
-* Framework verantwortlich für Container Life-cycle, Scaling, Networking, Loadbalancing, Virtual Storage
+* Framework verantwortlich für Container-Life-cycle, -Scaling, -Kommunikation, Loadbalancing, Virtual Storage
 * Container kommunizieren über ein privates Netzwerk miteinander
-* Kommunikation nach extern über externes Netzwerk
-* "Bring-your-own-Container"-Prinzip: die Plattform startet beliebige Container-Images
+* Kommunikation nach extern über "Service"-Definitionen
+* "Desired-State"-Prinzip: das Framework versucht den definierten Zielzustand immer aufrecht zu erhalten
 * Container Images werden in Image-Repositories hochgeladen (public/private)
 
 down:
@@ -93,6 +109,12 @@ Beispiel:
 down:
 
 ## Serverless
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PBw9vD_BO5A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>
+<font size="4">https://youtu.be/PBw9vD_BO5A</font>
+
+down:
 
 ![Serverless-Lambda](media/Lambda_HowItWorks.png)
 
@@ -161,5 +183,5 @@ down:
 down:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CKL3fV5UR8w" frameborder="0" allowfullscreen></iframe>
-
-https://www.youtube.com/embed/CKL3fV5UR8w
+<p>
+<font size="4">https://youtu.be/CKL3fV5UR8w</font>

@@ -2,14 +2,9 @@
 
 ... Cloud Computing ?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QJncFirhjPg" frameborder="0" allowfullscreen></iframe>
-
-note: * Frage: Ist es eine Dienstleistung ? -> Ja, man mietet sich Rechenressourcen. Man lagert Assets (HW, Rechenzentren) aus und bucht die Services on Demand.
-* Aus etwas physischem wird eine Dienstleistung
-* Wie kann man diese Dienstleistung konsumieren / nutzen ? -> Über das Internet
-* Beispiele:
-  * Anwendungssoftware: Gmail, MS Office, Google Maps
-  * Speicherplatz: Dropbox
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Bkx8Egjm2mw" frameborder="0" allowfullscreen></iframe>
+<br>
+<font size="4">https://www.youtube.com/embed/Bkx8Egjm2mw</font>
 
 down:
 

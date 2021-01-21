@@ -4,7 +4,7 @@ Frage: Welche Bedeutung hat Virtualisierung für Cloud Computing ?
 
 <div style="white-space: nowrap">
 <img src="media/the-thinker.jpg" width="40%" height="40%" />
-<img src="media/thinking-monkey.png" width="40%" height="40%" class="fragment" data-fragment-index="1"/>
+<img src="media/thinking-monkey.png" width="40%" height="40%" />
 </div>
 
 down:
@@ -20,20 +20,9 @@ essentiell u.a. für:
 
 down:
 
-## Virtualisierung: HandsOn Demo
-
-* [Virtual Box](https://www.virtualbox.org/)
-* [Docker](https://www.docker.com/)
-
-60 min.
-
-down:
-
-## Virtualisierung
-
-<iframe src='//players.brightcove.net/1534342432001/Byh3doRJx_default/index.html?videoId=3879037056001' allowfullscreen frameborder=0></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FZR0rG3HKIk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
-- VMWare
+<font size="4">https://youtu.be/FZR0rG3HKIk</font>
 
 down:
 
@@ -124,6 +113,7 @@ down:
 #### Emulation
 
 [DOSBox](https://www.dosbox.com) - Emulator
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GZx-LJH5J_I" frameborder="0" allowfullscreen></iframe>
 
 down:
@@ -156,9 +146,17 @@ down:
 * Embedded Software Entwicklung (Steuergeräte in Autos, Haushaltsgeräte etc.)
 * zum Abspielen alter Medien von nicht mehr unterstützter Hardware (SNES Emulator)
 * Virtualisierung: zum simulieren von nicht vorhandener Hardware/inkompatibler Hardware
+* Apple M1 Chip - Rosetta 2
+<br>
+<font size="4">https://www.computerworld.com/article/3597949/everything-you-need-to-know-about-rosetta-2-on-apple-silicon-macs.html</font>
 
-note: abstrahiert im Sinne von "teilt auf" und stellt isolierend eine Umgebung bereit
-* Beispiel Emulation: MacBook Pro CPU (x86), Samsung Galaxy S8 (ARM)
+down:
+
+## Virtualisierung: VM vs Container
+
+<iframe width="560" height="315" src='https://www.youtube.com/embed/cjXI-yxqGTI' allowfullscreen frameborder=0></iframe>
+<br>
+<font size="4">https://youtu.be/cjXI-yxqGTI</font>
 
 down:
 
@@ -213,6 +211,12 @@ note: * Frage: Docker-Handson MacOS X, welcher Kernel benutzt Mac OSX ? Wie funk
 
 down:
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0qotVMX-J5s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<font size="4">https://youtu.be/0qotVMX-J5s</font>
+
+down:
+
 #### Bedeutung von VMs für Cloud Computing
 
 * bieten Sicherheit durch Isolierung
@@ -223,7 +227,7 @@ down:
 
 down:
 
-#### Bedeutung von Containern für Cloud Computing
+#### Bedeutung von Container für Cloud Computing
 
 * effizienter als VMs
   * schnellere Skalierbarkeit durch schnelleres Boot-up
@@ -254,59 +258,9 @@ down:
 
 down:
 
-#### AWS EC2 - Lifecycle operations
+#### Beispiele für Container PaaS
 
-<img src="media/ec2-instance-operations.png" width="50%" height="50%" />
-<font size="5">
-- http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-lifecycle.html
-</font>
-
-down:
-
-#### AWS EC2 - AMI
-
-<img src="media/ami-design.png" width="70%" height="70%" />
-
-down:
-
-#### Container-Einsatz bei PaaS (Cloud Foundry)
-
-* Container-Images sind "Templates"
-* es können beliebig viele Container-Instanzen aus Images erzeugt werden
-* Grundbaustein für PaaS
-* Lebenszyklus von Container wird von der PaaS-Umgebung bestimmt (d.h. Container-Zustand sondern volatil)
-* schnellere Skalierung durch leichtgewichtigere Container
-
-down:
-
-#### Cloud Foundry
-
-* "Bring-Your-Own-Code"-Prinzip: Container-Image wird durch ein "Buildpack"-script gebaut
-* Container-Updates werden durch die Plattform automatisch durchgeführt, bspw. Security-Patching, Runtime-Updates
-* Plattform startet/pausiert/rebootet/terminiert Container eigenständig
-* Container = "Cell"
-
-down:
-
-#### "Bring-Your-Own-Code"
-
-<img src="media/PaaS-Simple.svg" width="60%" height="60%" />
-
-down:
-
-#### CF Container vs Docker Container
-
-<img src="media/warden-vs-docker.png" width="60%" height="60%" />
-<br>
-<font size="4">
-[https://www.cloudfoundry.org/cloud-foundry-containers-difference-warden-docker-garden/](https://www.cloudfoundry.org/cloud-foundry-containers-difference-warden-docker-garden/)
-</font>
-
-down:
-
-#### Cloud Foundry Architecture
-
-<img src="media/diego-architecture.png" width="60%" height="60%" />
-<br>
-<font size="4"> [https://docs.cloudfoundry.org/concepts/diego/diego-architecture.html](https://docs.cloudfoundry.org/concepts/diego/diego-architecture.html)
-</font>
+- AWS Elastic Kubernetes Service (EKS), Azure Kubernetes Service (AKS), Google Kubernetes Engine (GKE)
+- AWS Elastic Container Service (ECS), Azure App Service, Google App Engine
+- AWS Lambda, Azure Functions, Google Cloud Run
+- CloudFoundry

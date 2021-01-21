@@ -11,11 +11,33 @@ down:
 
 down:
 
-### Beispiel aus der Automobilindustrie:
+### SLAs, SLOs
 
-- Automatisiertes Fahren: Level 0 - Level 5
+- Service Level Agreements sind Vereinbarungen im Vertrag zwischen Cloud Provider und Nutzer, mit Zusicherungen (Bspw. Verfügbarkeit, Qualität) und Entschädigungen bei Nichteinhalten der Zusicherungen
 
-<img src="media/AD_levels.jpg" width="70%" height="70%"/>
+- Service Level Objectives definieren messbare Ziele die als Zusicherungen in SLAs gemacht werden können
+
+down:
+
+### Beispiele: SLAs
+
+- Azure DNS
+
+"We guarantee that valid DNS requests will receive a response from at least one Azure DNS name server 100% of the time."
+
+- Azure Databricks
+
+"We guarantee that Azure Databricks will be available 99.95% of the time."
+
+- [Azure SLAs](https://azure.microsoft.com/en-us/support/legal/sla/)
+
+down:
+
+### SLAs, SLOs, SLIs
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tEylFyxbDLE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- https://youtu.be/tEylFyxbDLE
 
 down:
 
