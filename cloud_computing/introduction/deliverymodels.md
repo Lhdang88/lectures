@@ -110,31 +110,13 @@ down:
 ## Community Cloud
 
 <div style="text-align: left;">
-Die Cloud wird für verschiedene Personenkreise (verschiedene Unternehmen) einer bestimmten Community (Strategische Partnerschaft) bereitgestellt.<br>
+Nicht mehr Relevant<br>
+<br>
+Die Cloud wird für eine Community (Strategische Partnerschaft) bereitgestellt.<br>
 <br>
 Die Kunden kommen aus verschiedenen Organisationen und haben dedizierten Zugriff auf die Cloud.<br>
 <br>
-Die Infrastruktur kann On Premise oder Off Premise gehostet werden.<br>
-<br>
 Der Betrieb kann dediziert durch eine Partei oder gemeinschaftlich erfolgen.<br>
-</div>
-
-down:
-
-<img src="media/community-cloud.svg" width="50%" height="50%" style="background-color: white;" />
-
-note: * gemeinsame Ziele, gleiche Domäne
-
-down:
-
-## Community Cloud - Vorteile/Nachteile
-
-<div style="text-align: left;">
-+ analog zu Private Cloud<br>
-+ die Gesamtkosten werden durch die Community getragen<br>
-<br>
-- Up-front Kosten, Total Cost of Ownership durch Hardware, Rechenzentren, Personal<br>
-- schwierigere Data Governance, wer darf auf welche Daten zugreifen ? Wo werden Daten gespeichert ?<br>
 </div>
 
 down:
@@ -154,9 +136,6 @@ note: * Begriffe - on-premise, off-premise erklären
 
 down:
 
-## Aufgabe
+## Frage
 
-Erläutere die Begriffe 'Multi Tenancy', 'Availability Zones', 'Elastic Computing' im Kontext von Cloud Computing.
-Beschreiben Sie Funktion(sweise), Bedeutung aus Kundensicht/Provider-Sicht. Vergleichen Sie mit klassischen Hosting Diensten e.g. Strato
-
-30 min.
+Worin unterscheidet sich "Web-Hosting" von Cloud Computing ?

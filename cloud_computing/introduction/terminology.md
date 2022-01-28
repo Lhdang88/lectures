@@ -1,6 +1,4 @@
-## Was ist eigentlich ...
-
-... Cloud Computing ?
+## Cloud Computing Evolution
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Bkx8Egjm2mw" frameborder="0" allowfullscreen></iframe>
 <br>
@@ -100,11 +98,6 @@ down:
 </tr>
 </table>
 
-note: * Was bedeutet self-provisioning
-* was bedeutet Skalierung: der Dienst wächst und verkleinert sich mit der Last, dafür wird eine Automatisierungsmechanismus benötigt, welches 'Auto-Scaling' genannt wird, typische Eigenschaft der Cloud: 'Elastic Runtime'
-* Resourcen pooling: Virtualisierung, je nach Bedarf werden physische Ressourcen hinzugefügt und in einem Pool zusammengeführt, bei Nutzung wird aus diesem bedient, die Platform kümmert sich um die Bereitstellung der Resourcen
-* Messbarkeit: Metering durch Monitoring der Dienste, man kann durch einen Report die Nutzung zu jeder Zeit, Zusammenfassen lassen
-
 down:
 
 ## weitere typische Eigenschaften
@@ -112,47 +105,9 @@ down:
 * Geografische Verteilung
 * Multi-Mandantenfähigkeit
 * Hohe Ausfallsicherheit
-* Sicherheit: Sicherheitsstandards, Verschlüssellung & Anonymisierung
+* Sicherheit: Sicherheitsstandards, Verschlüssellung, Security-as-a-Service
 
 <img src="media/nelson_question.gif" width="30%" height="30%" class="fragment" data-fragment-index="1"/>
 
 note: * Ausfallsicherheit: durch verteilte Rechenzentren, Availability Zones, Feuerschutz-Zonen, Rechenzentrumsbetrieb -> VL 4
 * Sicherheit: Cloud Zertifizierungen, Sicherheitszertifizierungen ?
-
-down:
-
-## Cloud Computing vs IT Outsourcing
-
-Worin unterscheidet sich Cloud Computing vom (klassischen) IT Outsourcing ?
-
-Beispiel:
-
-* Rechenzentrumsbetrieb wird ausgelagert
-* Software wird per Spezifikation geschrieben und betrieben
-
-note: * beides sind Dienstleistungen aus Sicht des Nutzers
-* in beiden Fällen muss der Kunde sich nicht mehr um "Hardware, Software und Betrieb kümmern"
-* der Kunde kann sich auf sein Business konzentrieren ...
-
-* Cloud Computing (Systemdienstleister)
-* bietet standardisierte Services für einen X-beliebigen Kunden (Multi-Tenant)
-* Services sind On-Demand buchbar und skalierbar
-* die Lokalisation der Kundendaten ist bei Cloud Computing intransparent
-* die gemieteten Rechenressourcen sind dynamisch und verteilt
-
-* Klassisches IT-Outsourcing: (Full-Service Dienstleister)
-* bietet einen individuellen Service für einen bestimmten Kunden, Kundenwünsche können berücksichtigt werden
-* Dienstleistungen können von Hosting, Entwicklung, Support etc. alles sein
-* der Kunde teilt die gekauften Service-Leistungen nicht mit anderen Kunden (Single-Tenant)
-
-down:
-
-## Aufgabe
-
-Nennt Beispiele für Cloud Computing Dienste und zeige auf inwiefern diese den Cloud-Computing Eigenschaften nach NIST genügen. Stellt diese Eigenschaften im jeweiligen Dienst vor.
-
-30 min.
-
-Beispiele:
-
-- Spotify, Gmail, Office365, Slack, Dropbox, AWS EC2, AWS Lambda Functions, Pivotal Cloud Foundry, Azure Cognitive Services

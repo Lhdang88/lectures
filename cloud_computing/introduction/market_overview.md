@@ -2,17 +2,17 @@
 
 Was ist Cloud Computing ?
 
-Wie ist die allgemeine Akzeptanz ?
+Welche Vor- und Nachteile gibt es ?
 
 Welche Fragen zum Thema Cloud Computing gibt es ?
 
 down:
 
-Cloud Computing Intro by AWS:
+Was ist Cloud Computing:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dH0yz-Osy54" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M988_fsOSWo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
-<font size="4">https://www.youtube.com/watch?v=dH0yz-Osy54</font>
+<font size="4">https://youtu.be/M988_fsOSWo</font>
 
 down:
 
@@ -41,17 +41,6 @@ down:
 <img src="media/Hype2015.jpg" width="75%" height="65%"/>
 <br>
 <font size="4">Gartner Hype Cycle 2015 Emerging Technologies</font>
-
-down:
-
-Cloud Monitor 2017 von KPMG / Bitkom Research
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sXXBwlqDwwI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<br>
-<font size="4">https://youtu.be/sXXBwlqDwwI</font>
-<br>
-<font size="4">https://www.bitkom.org/Presse/Anhaenge-an-PIs/2017/03-Maerz/Bitkom-KPMG-Charts-PK-Cloud-Monitor-14032017.pdf</font>
-
-note: spiegelt sich im Cloud Monitor wider, allerdings Deutschland ist ein Nachzügler, in Amerika schon längst verbreiteter: alle Start-ups hosten in der Cloud Beispiele
 
 down:
 
@@ -84,7 +73,7 @@ down:
 Cloud Trends...
 
 - SaaS: Remote Work Tools - MS Teams, Google Meet
-- Multi-Cloud
+- Hybrid-Cloud, Multi-Cloud
 - AI, Analytics, IoT, Edge Computing
 
 <font size="4">https://www.zdnet.com/article/the-top-cloud-providers-of-2020-aws-microsoft-azure-google-cloud-hybrid-saas</font>

@@ -8,9 +8,9 @@ down:
 
 #### Autoscaling Strategien
 
-* Reaktiv: Cloud Umgebung beobachtet Kernmetriken (CPU, Memory, Traffic) und reagiert auf Last
+* Reaktiv: ein "Auto-Scaling"-Dienst beobachtet Metriken (CPU, Memory, Request/s etc.) und skalliert wenn Grenzwerte überschritten werden
 * Proaktiv:
-  * Scheduling (scheduled scaling): Zeitlich geplante Skalierung auf Basis von Erfahrungswerten
+  * Scheduling (scheduled scaling): Zeitlich geplante Skalierung
   * Prädiktiv (predictiv scaling): durch Vorhersage auf Basis von prädiktive Analyse
 
 down:
@@ -56,33 +56,21 @@ down:
 
 down:
 
-#### Beispiel: Auto-Scaling bei AWS (IaaS)
+#### Keda: Auto-Scaling Erweiterung für Kubernetes
 
-* CPU, Speicherauslastung, Netzwerk Traffic wird durch AWS EC2 überwacht
-* alle Logs/Stdout werden an AWS Cloudwatch übermittelt (Logging/Monitoring-Service)
+<img src="media/keda-feats.png" width="70%" height="70%"/>
 
-<font size="4">[http://docs.aws.amazon.com/autoscaling/latest/userguide/WhatIsAutoScaling.html](http://docs.aws.amazon.com/autoscaling/latest/userguide/WhatIsAutoScaling.html)</font>
-
-down:
-
-* VMs können zu Auto-Scaling Groups hinzugefügt werden, Konfiguration von Scaling-Plans:
-  * Scaling Policies: reaktiv (standard), scheduled-scaling, dynamisch (auf Basis von Metriken aus Amazon SQS, Cloudwatch alarms)
-  * min./max. und gewünschte Anzahl an Instanzen
-
-<font size="4">[https://docs.aws.amazon.com/autoscaling/latest/userguide/as-using-sqs-queue.html](https://docs.aws.amazon.com/autoscaling/latest/userguide/as-using-sqs-queue.html
-)</font>
+<p>
+<font size="4">https://keda.sh/</font>
 
 down:
 
-#### Beispiel: Auto-Scaling bei AWS (IaaS)
+#### Keda: Auto-Scaling Erweiterung für Kubernetes
 
-* Ausführung: auf Basis von Scaling Plans werden VM Instanzen hinzugefügt / terminiert
-* hinzufügen von Instanzen (auf Basis von Launch-Configuration):
-  * Instanziierung aus Amazon Machine Images
-  * boot-up Phase, Initialisierung, Konfigurierung per Skript (siehe AMI Design Strategien)
-  * Anbindung an Cloud-Storage
-  * Registrierung ins Virtual Private Cloud (Netzwerk)
-  * Registrierung beim Elastic Load-Balancer
+<img src="media/keda-arch.png" width="70%" height="70%"/>
+
+<p>
+<font size="4">https://keda.sh/</font>
 
 down:
 
